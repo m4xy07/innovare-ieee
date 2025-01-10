@@ -4,6 +4,7 @@ import cogImage from "@/assets/cog.png";
 import cylinderImage from "@/assets/cylinder.png";
 import noodleImage from "@/assets/noodle.png";
 import Image from "next/image";
+import InnovareLogo from "@/assets/InnovareLogo.png";
 import {
   motion,
   useScroll,
@@ -26,7 +27,7 @@ export const Hero = () => {
       ref={heroRef}
       className="pt-8 pb-20 md:pt-5 md:pb-10 bg-black bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] relative overflow-clip"
     >
-      <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[3048px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_82%,#9560EB)] top-[calc(100%-96px)] sm:top-[calc(100%-128px)]"></div>
+      <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[3048px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_100%,#9560EB)] top-[calc(100%-96px)] sm:top-[calc(100%-128px)]"></div>
       <div className="container relative">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">  
@@ -75,7 +76,7 @@ export const Hero = () => {
               src={noodleImage.src}
               width={220}
               alt="Noodle image"
-              className="hidden lg:block absolute top-[480px] left-[600px] rotate-[30deg]"
+              className="hidden lg:block absolute top-[400px] left-[700px] rotate-[30deg]"
               style={{
                 rotate: 30,
                 translateY: translateY,
