@@ -108,6 +108,8 @@ export const Hero = () => {
               src={Orb1.src}
               
               alt="Orb image"
+              width={78.5}
+              height={74}
               className="hidden md:block top-48 -left-[800px] md:absolute"
               style={{
                 translateY: translateY,
@@ -125,6 +127,8 @@ export const Hero = () => {
              <motion.img
               src={Orb6.src}
               alt="Orb image"
+              width={77.4}
+              height={72}
               className="hidden lg:block absolute top-[16px] -right-[240px]"
               style={{
                 translateY: translateY,
