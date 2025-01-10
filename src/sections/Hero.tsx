@@ -5,6 +5,12 @@ import cylinderImage from "@/assets/cylinder.png";
 import noodleImage from "@/assets/noodle.png";
 import Image from "next/image";
 import InnovareLogo from "@/assets/InnovareLogo.png";
+import Robot1 from "@/assets/Website_Robot_1.png";
+import Robot2 from "@/assets/Website_Robot_2.png";
+import Robot3 from "@/assets/Website_Robot_3.png";
+import Robot4 from "@/assets/Website_Robot_4.png";
+
+
 import {
   motion,
   useScroll,
@@ -48,12 +54,28 @@ export const Hero = () => {
             </div>
           </div>
           <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
+            
+            
             <motion.img
-              src={cogImage.src}
-              alt="Cog image"
-              className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"
+              src={Robot2.src}
+              alt="Piece1 image"
+              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-6 lg:left-40 lg:top-72 z-20"
               animate={{
-                translateY: [-30, 30],
+                translateY: [-20, 20],
+              }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "mirror",
+                duration: 3,
+                ease: "easeInOut",
+              }}
+            />
+            <motion.img
+              src={Robot3.src}
+              alt="Piece2 image"
+              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-6 lg:left-40 lg:top-32 z-20"
+              animate={{
+                translateY: [-20, 20],
               }}
               transition={{
                 repeat: Infinity,
