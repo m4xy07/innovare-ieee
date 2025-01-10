@@ -5,7 +5,7 @@ import MenuIcon from "@/assets/menu.svg";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 bg-black z-20">
+    <header className="sticky top-0 bg-black z-50">
       
       <div className="py-5">
         <div className="container">
