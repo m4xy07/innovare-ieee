@@ -29,7 +29,7 @@ export const Footer = () => {
           <SocialYoutube />
         </div>
         <p className="mt-6">
-          &copy; 2024 IEEE PCU. All rights reserved.
+          &copy; 2024 Innovare, Aman Shaikh | m4xy. All rights reserved.
         </p>
       </div>
     </footer>

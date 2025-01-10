@@ -31,7 +31,7 @@ export const Hero = () => {
         <div className="md:flex items-center">
           <div className="md:w-[478px]">  
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mt-6">
-              Huge Heading
+              Innovare
             </h1>
             <p className="text-xl text-white tracking-tight text-opacity-60 mt-6">
               Text1

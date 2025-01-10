@@ -16,11 +16,11 @@ export const Header = () => {
             </div>
             
             <nav className="hidden md:flex gap-6 items-center">
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">item1</a>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">item2</a>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">item3</a>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">item4</a>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">item5</a>
+              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Our Mission</a>
+              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Team</a>
+              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Newsletter</a>
+              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</a>
+              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Contact</a>
               <button className="bg-white text-black px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
                 CTA
               </button>
