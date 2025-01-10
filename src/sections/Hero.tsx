@@ -8,7 +8,12 @@ import InnovareLogo from "@/assets/InnovareLogo.png";
 import Robot1 from "@/assets/Website_Robot_1.png";
 import Robot2 from "@/assets/Website_Robot_2.png";
 import Robot3 from "@/assets/Website_Robot_3.png";
-import Robot4 from "@/assets/Website_Robot_4.png";
+import Orb1 from "@/assets/Orb1.png";
+import Orb2 from "@/assets/Orb2.png";
+import Orb3 from "@/assets/Orb3.png";
+import Orb4 from "@/assets/Orb4.png";
+import Orb5 from "@/assets/Orb5.png";
+import Orb6 from "@/assets/Orb6.png";
 
 
 import {
@@ -16,6 +21,7 @@ import {
   useScroll,
   useTransform,
   useMotionValueEvent,
+  px,
 } from "framer-motion";
 import { useRef } from "react";
 
@@ -99,22 +105,48 @@ export const Hero = () => {
               }}
             />
             <motion.img
-              src={cylinderImage.src}
-              width={220}
-              height={220}
-              alt="Cylinder image"
-              className="hidden md:block -top-8 -left-32 md:absolute"
+              src={Orb1.src}
+              
+              alt="Orb image"
+              className="hidden md:block top-48 -left-[800px] md:absolute"
               style={{
                 translateY: translateY,
               }}
             />
             <motion.img
-              src={noodleImage.src}
+              src={Orb2.src}
               width={220}
-              alt="Noodle image"
-              className="hidden lg:block absolute top-[400px] left-[700px] rotate-[30deg]"
+              alt="Orb image"
+              className="hidden lg:block absolute top-[24px] -left-[20px]"
               style={{
-                rotate: 30,
+                translateY: translateY,
+              }}
+            />
+             <motion.img
+              src={Orb6.src}
+              alt="Orb image"
+              className="hidden lg:block absolute top-[16px] -right-[240px]"
+              style={{
+                translateY: translateY,
+              }}
+            />
+            <motion.img
+              src={Orb4.src}
+              width={225.6}
+              height={192.8}
+              alt="Orb image"
+              className="hidden lg:block absolute -bottom-[20px] -right-[260px]"
+              style={{
+                translateY: translateY,
+              }}
+            />
+            <motion.img
+              src={Orb5.src}
+              width={62.5}
+              height={61.5}
+              alt="Orb image"
+              className="hidden lg:block absolute bottom-[8px] -right-[60px]"
+              style={{
                 translateY: translateY,
               }}
             />
