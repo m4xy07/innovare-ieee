@@ -47,9 +47,9 @@ export const Hero = () => {
               Innovare
             </h1>
             <p className="text-xl text-white tracking-tight text-opacity-60 mt-6">
-              Text1
-              Text2
-              Text3
+              Innovate. 
+              Inspire. 
+              Impact.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <button className="btn btn-primary">CTA</button>

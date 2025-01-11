@@ -132,7 +132,7 @@ export const Testimonials = () => {
           </div>
           <h2 className="section-title mt-5 text-white">What our members say</h2>
           <p className="section-description mt-5 text-white text-opacity-30 pb-10">
-            Text.
+            Hear from our members: Inspiring journeys, impactful experiences, and a community that drives innovation.
           </p>
         </div>
         

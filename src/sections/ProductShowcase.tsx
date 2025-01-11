@@ -28,7 +28,7 @@ export const ProductShowcase = () => {
             What is IEEE
           </h2>
           <p className="section-description mt-5 text-white text-opacity-30">
-            Text
+            IEEE (Institute of Electrical and Electronics Engineers) is a global organization focused on advancing technology in areas like electrical engineering, computing, robotics, and telecommunications. It provides research publications, conferences, standards, and professional development opportunities.
           </p>
         </div>
         <WorldMapDemo/>

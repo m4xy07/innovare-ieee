@@ -7,7 +7,7 @@ export const Gain = () => {
         <div className="section-heading">
           <h2 className="section-title text-white">Benefits</h2>
           <p className="section-description mt-5 text-white text-opacity-30">
-            Text
+            Unlock opportunities, access resources, and connect with a global network to advance your career.
           </p>
         </div>
         <AppleCardsCarouselDemo/>
