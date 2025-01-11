@@ -2,6 +2,7 @@ import ArrowRight from "@/assets/arrow-right.svg";
 import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
+import { ShimmerButtonDemo3 } from "@/components/headerbtn";
 
 export const Header = () => {
   return (
@@ -20,10 +21,8 @@ export const Header = () => {
               <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Team</a>
               <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Newsletter</a>
               <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</a>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Contact</a>
-              <button className="bg-white text-black px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
-                CTA
-              </button>
+              <ShimmerButtonDemo3/>
+              
             </nav>
           </div>
         </div>
