@@ -25,6 +25,9 @@ import {
 } from "framer-motion";
 import { useRef } from "react";
 
+import { ShimmerButtonDemo2 } from "@/components/herobutton";
+import PreviewShinyRotatingBorderButton from "@/components/herobutton2";
+
 export const Hero = () => {
   const heroRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -49,14 +52,11 @@ export const Hero = () => {
             <p className="text-xl text-white tracking-tight text-opacity-60 mt-6">
               Innovate. 
               Inspire. 
-              Impact.
+              Impact.<br />
+              PCU's IEEE Student Chapter.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <button className="btn btn-primary">CTA</button>
-              <button className="btn btn-text gap-1 text-white">
-                <span>2nd CTA</span>
-                <ArrowIcon className="h-5 w-5" />
-              </button>
+              <ShimmerButtonDemo2 />
             </div>
           </div>
           <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
