@@ -28,11 +28,15 @@
   }
 
   .section-description {
-    @apply text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E];
+    @apply text-center text-[22px] leading-[35px] tracking-tight text-[#010D3E];
   }
 
   .section-heading {
     @apply max-w-[540px] mx-auto;
+  }
+
+  .section-heading-2 {
+    @apply max-w-[720px] mx-auto;
   }
 
   .card {

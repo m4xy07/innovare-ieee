@@ -3,6 +3,7 @@ import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
 import { ShimmerButtonDemo3 } from "@/components/headerbtn";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -17,7 +18,7 @@ export const Header = () => {
             </div>
             
             <nav className="hidden md:flex gap-6 items-center">
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Our Mission</a>
+              <Link href="/mission" className="text-opacity-60 text-white hover:text-opacity-100 transition">About</Link>
               <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Team</a>
               <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Newsletter</a>
               <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</a>
