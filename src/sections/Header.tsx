@@ -19,9 +19,9 @@ export const Header = () => {
             
             <nav className="hidden md:flex gap-6 items-center">
               <Link href="/about" className="text-opacity-60 text-white hover:text-opacity-100 transition">About</Link>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Team</a>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Newsletter</a>
-              <a href="#" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</a>
+              <Link href="/team" className="text-opacity-60 text-white hover:text-opacity-100 transition">Team</Link>
+              <Link href="/newsletter" className="text-opacity-60 text-white hover:text-opacity-100 transition">Newsletter</Link>
+              <Link href="/events" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</Link>
               <ShimmerButtonDemo3/>
               
             </nav>

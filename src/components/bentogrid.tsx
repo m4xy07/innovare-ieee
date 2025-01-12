@@ -5,6 +5,7 @@ import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { AnimatedBeamDemo } from "./animated-beam";
+import { IconCloudDemo } from "./iconclouddemo";
 
 export function FeaturesSectionDemo() {
   const features = [
@@ -57,7 +58,7 @@ export function FeaturesSectionDemo() {
             <FeatureCard key={feature.title} className={feature.className}>
               <FeatureTitle>{feature.title}</FeatureTitle>
               <FeatureDescription>{feature.description}</FeatureDescription>
-              <div className=" h-full w-full">{feature.skeleton}</div>
+              <div className="  w-full">{feature.skeleton}</div>
             </FeatureCard>
           ))}
         </div>
@@ -102,18 +103,10 @@ const FeatureDescription = ({ children }: { children?: React.ReactNode }) => {
   );
 };
 
-export const SkeletonOne = () => {
+export const SkeletonTwo = () => {
   return (
-    <div className="relative flex py-8 px-2 gap-10 h-full">
-      <div className="w-full  p-5  mx-auto bg-white dark:bg-neutral-900 shadow-2xl group h-full">
-        <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
-          {/* TODO */}
-          
-        </div>
-      </div>
-
-      <div className="absolute bottom-0 z-40 inset-x-0 h-60 bg-gradient-to-t from-white dark:from-black via-white dark:via-black to-transparent w-full pointer-events-none" />
-      <div className="absolute top-0 z-40 inset-x-0 h-60 bg-gradient-to-b from-white dark:from-black via-transparent to-transparent w-full pointer-events-none" />
+    <div className="relative flex py-2 px-2 gap-10 h-full">
+      <IconCloudDemo />
     </div>
   );
 };
@@ -124,7 +117,7 @@ export const SkeletonThree = () => {
   );
 };
 
-export const SkeletonTwo = () => {
+export const SkeletonOne = () => {
   const images = [
     "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
