@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 bg-black z-50">
+    <header className="sticky top-0 bg-black z-[100]">
       
       <div className="py-5">
         <div className="container">
@@ -18,9 +18,9 @@ export const Header = () => {
             </div>
             
             <nav className="hidden md:flex gap-6 items-center">
+            <Link href="/" className="text-opacity-60 text-white hover:text-opacity-100 transition">Home</Link>
               <Link href="/about" className="text-opacity-60 text-white hover:text-opacity-100 transition">About</Link>
               <Link href="/team" className="text-opacity-60 text-white hover:text-opacity-100 transition">Team</Link>
-              <Link href="/newsletter" className="text-opacity-60 text-white hover:text-opacity-100 transition">Newsletter</Link>
               <Link href="/events" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</Link>
               <ShimmerButtonDemo3/>
               
