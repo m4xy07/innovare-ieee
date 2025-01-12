@@ -2,7 +2,6 @@
 import CheckIcon from "@/assets/check.svg";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
-import { FeaturesSectionDemo } from "@/components/impact";
 import EcosystemIcon from '../assets/ecosystem.svg';
 import { Feature } from "./feature";
 
