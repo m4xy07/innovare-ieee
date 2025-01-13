@@ -16,58 +16,58 @@ import { DotPatternDemo } from "@/components/dotpatterndemo";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "The Chapter has given me hands-on experience in event organization and management, which has greatly improved my management skills.",
     imageSrc: avatar1.src,
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    name: "Suraj Madane",
+    username: "suraj.madane@innovare.dev",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "My membership has allowed access to a vast collection of research papers and articles that were previously inaccessible, making it so much easier stay updated with the latest advancements.",
     imageSrc: avatar2.src,
-    name: "Josh Smith",
-    username: "@jjsmith",
+    name: "Alisha Kalokhe"
+    username: "alisha.kalokhe@innovare.dev",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "Research and browsing on any topic have become vastly more convenient thanks to the extensive resources available through IEEE.",
     imageSrc: avatar3.src,
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    name: "Anushka Patil",
+    username: "anushka.patil@innovaere.dev",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "Being part of the Chapter has allowed me to network with industry leaders, collaborate with academia, and connect with top researchers, opening doors for potential mentorship."
     imageSrc: avatar4.src,
-    name: "Casey Jordan",
-    username: "@caseyj",
+    name: "Hiren Patel",
+    username: "hiren.patel@innovare.dev",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "Attending in-house workshops and projects has deepened my understanding of emerging technologies, and helping organize them further boosts my technical knowledge."
     imageSrc: avatar5.src,
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    name: "Bhumika Gurjar",
+    username: "bhumika.gurjar@innovare.dev",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "Chapter activities have helped me build valuable relationships with like-minded peers, fostering a culture of collaboration that has led to fruitful partnerships.",
     imageSrc: avatar6.src,
-    name: "Riley Smith",
-    username: "@rileysmith1",
+    name: "Prajwal Shirude",
+    username: "prajwal.shirude@innovare.dev",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "Through Chapter-led outreach and events, I've developed a stronger sense of purpose by contributing to the wider community and supporting educational initiatives.",
     imageSrc: avatar7.src,
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
+    name: "Shravan Raut",
+    username: "shravan.raut@innovare.dev",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "This has been an excellent platform for developing workplace-relevant soft skills, from coordination to public speaking and backend support.",
     imageSrc: avatar8.src,
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
+    name: "Rajkunvar Mohite",
+    username: "rajkunvar.mohite@innovare.dev",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "Quantitative research work has never been easier due the Chapter and organisation's vast reach.",
     imageSrc: avatar9.src,
-    name: "Casey Harper",
-    username: "@casey09",
+    name: "Aneeqa Inamdar",
+    username: "anneqa.inamdar@innovare.dev",
   },
 ];
 
