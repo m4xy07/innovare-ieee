@@ -7,7 +7,7 @@ const contactcomponent = () => {
             <div className="section-heading">
               <h2 className="section-title text-white">Past Events</h2>
               <p className="section-description mt-5 text-white text-opacity-30 pb-10">
-                Text
+                Reflecting on Milestones in Technology.
               </p>
             </div>
             

@@ -46,7 +46,7 @@ export function FeaturesSectionDemo() {
             <div className="section-heading-2">
               <h2 className="section-title text-white">Our Objectives</h2>
               <p className="section-description mt-5 text-white text-opacity-30 ">
-              Text
+              Cultivating Curiosity, Driving Discovery.
               </p>
             </div>
             
