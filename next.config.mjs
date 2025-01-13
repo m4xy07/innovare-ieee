@@ -29,7 +29,11 @@ const nextConfig = {
   },
 
   images: {
-    domains: ["images.unsplash.com", "assets.aceternity.com"], // Allow images from Unsplash
+    domains: [
+      "images.unsplash.com",
+      "assets.aceternity.com",
+      "cdn-icons-png.flaticon.com",
+    ], // Allow images from Unsplash
   },
   distDir: "build",
   // ...other config
