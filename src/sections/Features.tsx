@@ -17,15 +17,15 @@ const features = [
     imageSrc: "/images/Empowerment.png",
     title: 'Empowering Students',
     description: 'IEEE Student Chapters provide resources, mentorship, and hands-on opportunities, enabling students to develop skills, network, and lead impactful projects.',
-    width: 100,
+    width: 75,
     height: 75,
   },
   {
     imageSrc: "/images/Community.png",
     title: 'Community Outreach',
     description: 'Through international conferences and seminars, student chapters address local and global issues, promoting sustainable development and societal well-being.',
-    width: 100,
-    height: 100,
+    width: 115,
+    height: 115,
   }
 ];
 
@@ -40,7 +40,7 @@ export const Features = () => {
             Empowering students, advancing technology, and transforming communities for a better tomorrow.
           </p>
         </div>
-        <div className="mt-16 flex flex-col sm:flex-row gap-4">
+        <div className="mt-16 flex flex-col md:flex-row gap-4 justify-center">
           {features.map(({imageSrc, title, description, height, width}) => (
             <Feature imageSrc={imageSrc} title={title} description={description} height={height} width={width} key={title} />
           ))}

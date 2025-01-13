@@ -39,7 +39,7 @@ export const Hero = () => {
     
     <section
       ref={heroRef}
-      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-black bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] relative overflow-clip"
+      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-black bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] relative overflow-hidden"
     >
       <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[3048px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_100%,#9560EB)] top-[calc(100%-96px)] sm:top-[calc(100%-128px)]"></div>
       <div className="container relative">

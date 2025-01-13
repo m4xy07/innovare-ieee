@@ -33,7 +33,7 @@ export const Feature = ({ title, description, imageSrc, width, height, }: { titl
                 }}
                 ref={border}
             ></motion.div>
-            <div className="inline-flex h-[100px] w-[100px] text-black justify-center items-center rounded-lg">
+            <div className="inline-flex text-black justify-center items-center rounded-lg">
                 <Image src={imageSrc} alt={title} width={width} height={height} className="rounded-lg" />
             </div>
             <h3 className="mt-6 font-bold">{title}</h3>
