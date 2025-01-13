@@ -10,7 +10,7 @@ const TeamSec = () => {
             <div className="section-heading pb-10">
               <h2 className="section-title text-white">The Team</h2>
               <p className="section-description mt-5 text-white text-opacity-30">
-                Text
+                Meet the Minds Behind the Magic – Our Team, Your Visionaries.
               </p>
             </div>
             <div className='container flex md:flex-row gap-6 pb-6 sm:flex-col'>
