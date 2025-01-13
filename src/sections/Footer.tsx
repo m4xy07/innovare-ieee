@@ -14,11 +14,11 @@ export const Footer = () => {
           <Image src={logo} height={40} alt="Innovare logo" className="relative" />
         </div>
         <nav className="flex flex-col md:flex-row md:justify-center gap-6 mt-6">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/team">Team</a>
-          <a href="/events">Events</a>
-          <a href="/contact">Contact</a>
+          <a href="/" className="text-opacity-60 text-white hover:text-opacity-100 transition">Home</a>
+          <a href="/about" className="text-opacity-60 text-white hover:text-opacity-100 transition">About</a>
+          <a href="/team" className="text-opacity-60 text-white hover:text-opacity-100 transition">Team</a>
+          <a href="/events" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</a>
+          <a href="/contact" className="text-opacity-60 text-white hover:text-opacity-100 transition">Contact</a>
         </nav>
         <div className="flex justify-center gap-6 mt-6">
           <a href="https://twitter.com/PCUPuneOfficial" rel="noopener noreferrer"><SocialX /></a>
