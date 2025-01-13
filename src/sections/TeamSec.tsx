@@ -65,7 +65,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Suraj Rakshe",
-                    imageSrc: "/images/Team/Suraj.jpg",
+                    imageSrc: "/images/Team/Member25.jpeg",
                     imageAlt:
                     "Suraj Rakshe - Secretary",
                     subtitle: "Secretary",
@@ -101,7 +101,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Aman Shaikh",
-                    imageSrc: "/images/Team/Aman.png",
+                    imageSrc: "/images/Team/aman.png",
                     imageAlt:
                     "Aman Shaikh - Tech Lead",
                     subtitle: "Head, Technical Team",
