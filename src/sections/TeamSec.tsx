@@ -16,324 +16,360 @@ const TeamSec = () => {
             <div className='container flex md:flex-row gap-6 pb-6 sm:flex-col'>
             <MorphingDialogBasicOne
                 dialogData={{
+                    title: "Dr.Swati Shirke-Deshmukh",
+                    imageSrc: "/images/Team/SwatiShrike.jpeg",
+                    imageAlt:
+                    "Swati Shirke-Deshmukh [Faculty co-ordinator]",
+                    subtitle: "Faculty co-ordinator",
+                    description:
+                    "Dr. Swati Shirke-Deshmukh is a faculty co-ordinator of the team. She is a professor in the department of Computer Engineering at PCCOE. She has a keen interest in the field of Machine Learning and Artificial Intelligence.",
+                }}
+                />
+
+                <MorphingDialogBasicOne
+                dialogData={{
+                    title: "Arfiya Shikalgar",
+                    imageSrc: "/images/Team/Arfiya.jpg",
+                    imageAlt:
+                    "Arfiya Shikalgar - President",
+                    subtitle: "President",
+                    description:
+                    "Arfiya Shikalgar is the President of the student chapter, Innovare. She is a third year student of Computer Engineering at PCU",
+                }}
+                />
+                <MorphingDialogBasicOne
+                dialogData={{
+                    title: "Aditya Jadhav",
+                    imageSrc: "/images/Team/AdityaJ.jpg",
+                    imageAlt:
+                    "Aditya Jadhav - Vice-President",
+                    subtitle: "Vice-President",
+                    description:
+                    "Aditya Jadhav is the Vice-President of the student chapter, Innovare. He is a second year student of Computer Engineering at PCU",
+                }}
+                />
+            </div>
+            <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
+            <MorphingDialogBasicOne
+                dialogData={{
+                    title: "Jay Patil",
+                    imageSrc: "/images/Team/Jay.jpg",
+                    imageAlt:
+                    "Jay Patil - Secretary",
+                    subtitle: "Secretary",
+                    description:
+                    "Jay Patil is the Secretary of the student chapter, Innovare. He is a second year student of Computer Engineering at PCU",
+                }}
+                />
+
+                <MorphingDialogBasicOne
+                dialogData={{
+                    title: "Suraj Rakshe",
+                    imageSrc: "/images/Team/Suraj.jpg",
+                    imageAlt:
+                    "Suraj Rakshe - Secretary",
+                    subtitle: "Secretary",
+                    description:
+                    "Suraj Rakshe is the Secretary of the student chapter, Innovare. He is a second year student of Computer Engineering at PCU",
+                }}
+                />
+                <MorphingDialogBasicOne
+                dialogData={{
+                    title: "Shravan Raut",
+                    imageSrc: "/images/Team/shravan.jpg",
+                    imageAlt:
+                    "Shravan Raut - Treasurer",
+                    subtitle: "Treasurer",
+                    description:
+                    "Shravan Raut is the Treasurer of the student chapter, Innovare. He is a second year student of Computer Engineering at PCU",
+                }}
+                />
+            </div>
+            <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
+            <MorphingDialogBasicOne
+                dialogData={{
+                    title: "Mayur Kharche",
+                    imageSrc: "/images/Team/Mayur.jpg",
+                    imageAlt:
+                    "Mayur Kharche - Treasurer",
+                    subtitle: "Treasurer",
+                    description:
+                    "Mayur Kharche is the Treasurer of the student chapter, Innovare. He is a second year student of Computer Engineering at PCU",
+                }}
+                />
+
+                <MorphingDialogBasicOne
+                dialogData={{
                     title: "Aman Shaikh",
-                    imageSrc: "/images/Member1.jpeg",
+                    imageSrc: "/images/Team/aman.png",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Aman Shaikh - Tech Lead",
+                    subtitle: "Head, Technical Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
-                }}
-                />
-
-                <MorphingDialogBasicOne
-                dialogData={{
-                    title: "2",
-                    imageSrc: "/images/Member2.jpeg",
-                    imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
-                    description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Aman Shaikh is the Tech Lead of the student chapter, Innovare. He is a second year student of Computer Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "3",
-                    imageSrc: "/images/Member3.jpeg",
+                    title: "Hiren Patel",
+                    imageSrc: "/images/Team/Hiren.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Hiren Patel - Tech",
+                    subtitle: "Vice-Head, Technical Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Hiren Patel is the Vice-Head, Technical of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
             <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "4",
-                    imageSrc: "/images/Member4.jpeg",
+                    title: "Dhruv Choudhary",
+                    imageSrc: "/images/Team/Dhruv.jpeg",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Dhruv Choudhary - Tech",
+                    subtitle: "Member, Technical Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Dhruv Choudhary is a member of the Technical team of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
 
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "5",
-                    imageSrc: "/images/Member5.jpeg",
+                    title: "Anushka Patil",
+                    imageSrc: "/images/Tech/anushka.jpeg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Anushka Patil - Promotion",
+                    subtitle: "Head, Promotion Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Anushka Patil is the Head, Promotion of the student chapter, Innovare. She is a student of Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "6",
-                    imageSrc: "/images/Member6.jpeg",
+                    title: "Renesh Sharma",
+                    imageSrc: "/images/Team/Renesh.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Renesh Sharma - Promotion",
+                    subtitle: "Vice-Head, Promotion Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Renesh Sharma is the Vice-Head, Promotion of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
             <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "7",
-                    imageSrc: "/images/Member7.jpeg",
+                    title: "Aditya Rasal",
+                    imageSrc: "/images/Team/Aditya.jpeg",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Aditya Rasal",
+                    subtitle: "Head, Event Management",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Aditya Rasal is the Head, Event Management of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
 
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "8",
-                    imageSrc: "/images/Member8.jpeg",
+                    title: "Harsh Chavan",
+                    imageSrc: "/images/Team/Harsh.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Harsh Chavan",
+                    subtitle: "Vice-Head, Event Management",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Harsh Chavan is the Vice-Head, Event Management of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "9",
-                    imageSrc: "/images/Member9.jpeg",
+                    title: "Viraj Awate",
+                    imageSrc: "/images/Tech/Viraj.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Viraj Awate",
+                    subtitle: "Head, Design Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Viraj Awate is the Head, Design of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
             <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "10",
-                    imageSrc: "/images/Member10.jpeg",
+                    title: "Alisha Kalokhe",
+                    imageSrc: "/images/Tech/Alisha.jpg",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Alisha Kalokhe",
+                    subtitle: "Vice-Head, Design Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Alisha Kalokhe is the Vice-Head, Design of the student chapter, Innovare. She is a student of Engineering at PCU",
                 }}
                 />
 
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "11",
-                    imageSrc: "/images/Member11.jpeg",
+                    title: "Mrunmayee Desai",
+                    imageSrc: "/images/Team/Mrunmayee.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Mrunmayee Desai",
+                    subtitle: "Head, Finance Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Mrunmayee Desai is the Head, Finance of the student chapter, Innovare. She is a student of Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "12",
-                    imageSrc: "/images/Member12.jpeg",
+                    title: "Sahil Sabale",
+                    imageSrc: "/images/Team/Sahil.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Sahil Sabale",
+                    subtitle: "Vice-Head, Finance Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Sahil Sabale is the Vice-Head, Finance of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
             <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "13",
-                    imageSrc: "/images/Member13.jpeg",
+                    title: "Prajwal Shirude",
+                    imageSrc: "/images/Team/Prajwal.jpg",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Prajwal Shirude",
+                    subtitle: "Vice-Head, Finance Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Prajwal Shirude is the Vice-Head, Finance of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
 
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "14",
-                    imageSrc: "/images/Member14.jpeg",
+                    title: "Aneeqa Inamdar",
+                    imageSrc: "/images/Team/Aneeqa.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Aneeqa Inamdar",
+                    subtitle: "Head, Content Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Aneeqa Inamdar is the Head, Content of the student chapter, Innovare. She is a student of Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "15",
-                    imageSrc: "/images/Member15.jpeg",
+                    title: "Sairaj Salunke",
+                    imageSrc: "/images/Tech/Sairaj.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Sairaj Salunke",
+                    subtitle: "Vice-Head, Content Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Sairaj Salunke is the Vice-Head, Content of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
             <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "16",
-                    imageSrc: "/images/Member16.jpeg",
+                    title: "Vishvam Ghorpade",
+                    imageSrc: "/images/Tech/Vishvam.jpg",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Vishvam Ghorpade",
+                    subtitle: "Vice-Head, Content Team",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Vishvam Ghorpade is the Vice-Head, Content of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
 
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "17",
-                    imageSrc: "/images/Member17.jpeg",
+                    title: "Suraj Madane",
+                    imageSrc: "/images/Tech/SurajM.jpeg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Suraj Madane",
+                    subtitle: "Head, People Management",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Suraj Madane is the Head, People Management of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "18",
-                    imageSrc: "/images/Member18.jpeg",
+                    title: "Jay Godse",
+                    imageSrc: "/images/Team/jaygodse.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Jay Godse",
+                    subtitle: "Vice-Head, People Management",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Jay Godse is the Vice-Head, People Management of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
             <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "19",
-                    imageSrc: "/images/Member19.jpeg",
+                    title: "Swarangi Kothawade",
+                    imageSrc: "/images/Tech/Swarangi.jpeg",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Swarangi Kothawade",
+                    subtitle: "Head, Technical Workshop",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Swarangi Kothawade is the Head, Technical Workshop of the student chapter, Innovare. She is a student of Engineering at PCU",
                 }}
                 />
 
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "20",
-                    imageSrc: "/images/Member20.jpeg",
+                    title: "Bhumika Gurjar",
+                    imageSrc: "/images/Team/Bhumika.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Bhumika Gurjar",
+                    subtitle: "Member, Technical Workshop",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Bhumika Gurjar is a member of the Technical Workshop of the student chapter, Innovare. She is a student of Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "21",
-                    imageSrc: "/images/Member21.jpeg",
+                    title: "Shubham Gayakwad",
+                    imageSrc: "/images/Tech/Shubham.jpeg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Shubham Gayakwad",
+                    subtitle: "Member, Technical Workshop",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Shubham Gayakwad is a member of the Technical Workshop of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
             <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "22",
-                    imageSrc: "/images/Member22.jpeg",
+                    title: "Abhijeet Chavan",
+                    imageSrc: "/images/Tech/Abhijeet.jpg",
                     imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
+                    "Abhijeet Chavan",
+                    subtitle: "Voluntary Coordinator",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Abhijeet Chavan is the Voluntary Coordinator of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
 
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "23",
-                    imageSrc: "/images/Member23.jpeg",
+                    title: "Rajkunvar Mohite",
+                    imageSrc: "/images/Tech/Rajkunvar.jpg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Rajkunvar Mohite",
+                    subtitle: "Voluntary Coordinator",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Rajkunvar Mohite is the Voluntary Coordinator of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
                 <MorphingDialogBasicOne
                 dialogData={{
-                    title: "24",
-                    imageSrc: "/images/Member24.jpeg",
+                    title: "Shreyas Bagrao",
+                    imageSrc: "/images/Team/Shreyas.jpeg",
                     imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
+                    "Shreyas Bagrao",
+                    subtitle: "Voluntary Coordinator",
                     description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
-                }}
-                />
-            </div>
-            <div className='container flex sm:flex-col md:flex-row gap-6 pb-6'>
-            <MorphingDialogBasicOne
-                dialogData={{
-                    title: "25",
-                    imageSrc: "/images/Member25.jpeg",
-                    imageAlt:
-                    "Aman Shaikh",
-                    subtitle: "Tech Lead",
-                    description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
-                }}
-                />
-
-                <MorphingDialogBasicOne
-                dialogData={{
-                    title: "26",
-                    imageSrc: "/images/Member26.jpeg",
-                    imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
-                    description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
-                }}
-                />
-                <MorphingDialogBasicOne
-                dialogData={{
-                    title: "27",
-                    imageSrc: "/images/Member27.jpeg",
-                    imageAlt:
-                    "A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood.",
-                    subtitle: "Edouard Wilfrid Buquet",
-                    description:
-                    "Little is known about the life of Édouard-Wilfrid Buquet. He was born in France in 1866, but the time and place of his death is unfortunately a mystery. Research conducted in the 1970s revealed that he’d designed the 'EB 27' double-arm desk lamp in 1925, handcrafting it from nickel-plated brass, aluminium and varnished wood.",
+                    "Shreyas Bagrao is the Voluntary Coordinator of the student chapter, Innovare. He is a student of Engineering at PCU",
                 }}
                 />
             </div>
