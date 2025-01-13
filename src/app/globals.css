@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer components {
   .btn {
     @apply px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight;
@@ -16,7 +18,7 @@
   }
 
   .logo-ticker-image {
-    @apply h-8 w-auto;
+    @apply h-16 w-auto;
   }
 
   .tag {

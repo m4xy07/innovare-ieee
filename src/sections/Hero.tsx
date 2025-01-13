@@ -26,7 +26,6 @@ import {
 import { useRef } from "react";
 
 import { ShimmerButtonDemo2 } from "@/components/herobutton";
-import PreviewShinyRotatingBorderButton from "@/components/herobutton2";
 
 export const Hero = () => {
   const heroRef = useRef(null);

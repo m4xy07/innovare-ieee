@@ -1,10 +1,7 @@
 "use client";
-import acmeLogo from "@/assets/acme.png";
-import quantumLogo from "@/assets/quantum.png";
-import echoLogo from "@/assets/echo.png";
-import celestialLogo from "@/assets/celestial.png";
-import pulseLogo from "@/assets/pulse.png";
-import apexLogo from "@/assets/apex.png";
+import InnovareMarquee from "@/assets/InnovareMarquee.png";
+import IEEELogo from "@/assets/IEEELogo.png";
+import PCULogo from "@/assets/PCULogo.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -26,65 +23,65 @@ export const LogoTicker = () => {
             }}
           >
             <Image
-              src={acmeLogo}
-              alt="Acme Logo"
+              src={InnovareMarquee}
+              alt="Innovare Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={quantumLogo}
-              alt="Quantum Logo"
+              src={IEEELogo}
+              alt="IEEE Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={echoLogo}
-              alt="Echo Logo"
+              src={PCULogo}
+              alt="PCU Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={celestialLogo}
-              alt="Celestial Logo"
+              src={InnovareMarquee}
+              alt="Innovare Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={pulseLogo}
-              alt="Pulse Logo"
+              src={IEEELogo}
+              alt="IEEE Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={apexLogo}
-              alt="Apex Logo"
+              src={PCULogo}
+              alt="PCU Logo"
               className="logo-ticker-image"
             />
 
             {/* Second set of logos for animation */}
             <Image
-              src={acmeLogo}
-              alt="Acme Logo"
+              src={InnovareMarquee}
+              alt="Innovare Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={quantumLogo}
-              alt="Quantum Logo"
+              src={IEEELogo}
+              alt="IEEE Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={echoLogo}
-              alt="Echo Logo"
+              src={PCULogo}
+              alt="PCU Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={celestialLogo}
-              alt="Celestial Logo"
+              src={InnovareMarquee}
+              alt="Innovare Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={pulseLogo}
-              alt="Pulse Logo"
+              src={IEEELogo}
+              alt="IEEE Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={apexLogo}
-              alt="Apex Logo"
+              src={PCULogo}
+              alt="PCU Logo"
               className="logo-ticker-image"
             />
           </motion.div>
