@@ -27,7 +27,7 @@ export const Footer = () => {
           <a href="https://www.youtube.com/@pcupuneofficial" rel="noopener noreferrer"><SocialYoutube /></a>
         </div>
         <p className="mt-6">
-          &copy; 2024 Innovare, Aman Shaikh | m4xy. All rights reserved.
+          &copy; 2024 Innovare, <Link href="https://github.com/m4xy07" target="_blank" rel="noopener noreferrer">Aman Shaikh | m4xy</Link>. All rights reserved.
         </p>
       </div>
     </footer>
