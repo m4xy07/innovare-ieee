@@ -2,6 +2,8 @@
 import InnovareMarquee from "@/assets/InnovareMarquee.png";
 import IEEELogo from "@/assets/IEEELogo.png";
 import PCULogo from "@/assets/PCULogo.png";
+import IEEECS from "@/assets/ieeecs.webp";
+import IEEEBombay from "@/assets/bombay.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -38,18 +40,13 @@ export const LogoTicker = () => {
               className="logo-ticker-image"
             />
             <Image
-              src={InnovareMarquee}
-              alt="Innovare Logo"
+              src={IEEECS}
+              alt="IEEE CS Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={IEEELogo}
-              alt="IEEE Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={PCULogo}
-              alt="PCU Logo"
+              src={IEEEBombay}
+              alt="IEEE Bombay Logo"
               className="logo-ticker-image"
             />
 
@@ -70,18 +67,13 @@ export const LogoTicker = () => {
               className="logo-ticker-image"
             />
             <Image
-              src={InnovareMarquee}
-              alt="Innovare Logo"
+              src={IEEECS}
+              alt="IEEE CS Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={IEEELogo}
-              alt="IEEE Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={PCULogo}
-              alt="PCU Logo"
+              src={IEEEBombay}
+              alt="IEEE Bombay Logo"
               className="logo-ticker-image"
             />
           </motion.div>

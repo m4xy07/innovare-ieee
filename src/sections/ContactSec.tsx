@@ -1,23 +1,33 @@
+
+import { DotPatternDemo2 } from '@/components/dotpatterncontact'
 import React from 'react'
 
 const ContactSec = () => {
   return (
-    <section className="pt-10 pb-24 bg-black text-white flex flex-row items-center justify-center text-center gap-42 max-w-[720px] mx-auto">
-        <div>
+    <section className="pt-10 h-screen pb-24 bg-black text-white flex flex-col items-center justify-center text-center gap-[10rem] max-w-4xl sm:max-w-sm mx-auto">
+      <DotPatternDemo2/>
+        <div className='z-20'>
             <div className="section-heading-2">
-              <h2 className="section-title text-white">Contact Us</h2>
-              <p className="section-description mt-5 text-white text-opacity-30 pb-10">
-                Text
+              <h2 className="section-title text-white pb-5">Contact Us</h2>
+              <p className="section-description text-white text-opacity-60">
+              Get in touch with us at:
               </p>
+              <p className="section-description mt-5 text-white text-opacity-30 pb-4 hover:text-opacity-100 transition">
+              technical@innovare.dev
+              </p>
+              <p className="section-description text-white text-opacity-30 hover:text-opacity-100 transition">
+              aman.shaikh@innovare.dev
+              </p>              
             </div>
         </div>
-        <div >
-            <div className="section-heading-2">
-              <h2 className="section-title text-white">Past Events</h2>
-              <p className="section-description mt-5 text-white text-opacity-30 pb-10">
-                Text
-              </p>
-            </div>
+        <div className='z-20'>
+          <div className="section-heading-2">
+            <h2 className="section-title text-white pb-5">Address</h2>
+            <p className="section-description mt-5 text-white text-opacity-30 pb-10 hover:text-opacity-100 transition">
+              	Gut No. 44, 46, 48, 49 and 50, Sate, Maval (PMRDA) Dist. Pune-412106 ‌
+                Maharashtra, India ‌
+            </p>
+          </div>
         </div>
     </section>
   )
