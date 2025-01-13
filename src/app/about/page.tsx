@@ -12,10 +12,9 @@ export default function Mission() {
   return (
     <>
       <Header />
-      <Philosophy />
+      <ObjectiveSec />
       <MissionSec />
       <VisionSec />
-      <ObjectiveSec />
       <CallToAction />
       <Footer />
     </>

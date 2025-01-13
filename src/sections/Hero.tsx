@@ -64,7 +64,7 @@ export const Hero = () => {
             <motion.img
               src={Robot2.src}
               alt="Piece1 image"
-              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-6 lg:left-40 lg:top-72 z-40"
+              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-32 md:top-56 lg:left-40 lg:top-72 z-40"
               animate={{
                 translateY: [20, -20],
               }}
@@ -78,7 +78,7 @@ export const Hero = () => {
             <motion.img
               src={Robot1.src}
               alt="Robot image"
-              className="md:absolute md:h-[442.8px] md:w-[345.6px] md:max-w-none md:-left-6 lg:left-60 lg:top-28 z-20"
+              className="md:absolute md:h-[442.8px] md:w-[345.6px] md:max-w-none md:-left-12 md:top-12 lg:left-60 lg:top-28 z-20"
               animate={{
                 translateY: [-10, 10],
               }}
@@ -92,7 +92,7 @@ export const Hero = () => {
             <motion.img
               src={Robot3.src}
               alt="Piece2 image"
-              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-6 lg:left-40 lg:top-32"
+              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-32 md:top-24 lg:left-40 lg:top-32"
               animate={{
                 translateY: [20, -20],
               }}

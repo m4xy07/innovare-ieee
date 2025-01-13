@@ -7,18 +7,27 @@ import { Feature } from "./feature";
 
 const features = [
   {
+    imageSrc: "/images/Technology.png",
     title: 'Advancing Technology',
-    description: 'IEEE fosters innovation by supporting research, publishing standards, and organizing technical conferences, driving technological solutions for societal challenges.'
+    description: 'IEEE fosters innovation by supporting research, publishing standards, and organizing technical conferences, driving technological solutions for societal challenges.',
+    width: 100,
+    height: 100,
   },
   {
+    imageSrc: "/images/Empowerment.png",
     title: 'Empowering Students',
-    description: 'IEEE Student Chapters provide resources, mentorship, and hands-on opportunities, enabling students to develop skills, network, and lead impactful projects.'
+    description: 'IEEE Student Chapters provide resources, mentorship, and hands-on opportunities, enabling students to develop skills, network, and lead impactful projects.',
+    width: 100,
+    height: 75,
   },
   {
+    imageSrc: "/images/Community.png",
     title: 'Community Outreach',
-    description: 'Through international conferences and seminars, student chapters address local and global issues, promoting sustainable development and societal well-being.'
+    description: 'Through international conferences and seminars, student chapters address local and global issues, promoting sustainable development and societal well-being.',
+    width: 100,
+    height: 100,
   }
-]
+];
 
 
 export const Features = () => {
@@ -32,8 +41,8 @@ export const Features = () => {
           </p>
         </div>
         <div className="mt-16 flex flex-col sm:flex-row gap-4">
-          {features.map(({title, description}) => (
-            <Feature title={title} description={description} key={title} />
+          {features.map(({imageSrc, title, description, height, width}) => (
+            <Feature imageSrc={imageSrc} title={title} description={description} height={height} width={width} key={title} />
           ))}
         </div>
       </div>
