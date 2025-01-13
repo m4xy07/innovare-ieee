@@ -33,6 +33,7 @@ const nextConfig = {
       "images.unsplash.com",
       "assets.aceternity.com",
       "cdn-icons-png.flaticon.com",
+      "i.imgur.com",
     ], // Allow images from Unsplash
   },
   distDir: "build",
