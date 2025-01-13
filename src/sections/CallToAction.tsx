@@ -24,7 +24,7 @@ export const CallToAction = () => {
         <div className="section-heading relative">
           <h2 className="section-title text-white">Join the Future</h2>
           <p className="section-description text-white text-opacity-30 mt-5">
-            Empower Your Potential. Expand Your Network. Shape Innovation. < br /> Become an IEEE Member Today!
+            Empower Your Potential. < br /> Expand Your Network. <br/> Shape Innovation. < br /> <br/>Become an IEEE Member Today!
           </p>
           <motion.img
             src={starImage.src}
