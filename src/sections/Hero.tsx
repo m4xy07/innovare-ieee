@@ -53,7 +53,7 @@ export const Hero = () => {
               Innovate. 
               Inspire. 
               Impact.<br />
-              PCU's IEEE Student Chapter.
+              PCU&apos;s IEEE Student Chapter.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <ShimmerButtonDemo2 />
