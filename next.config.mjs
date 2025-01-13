@@ -34,6 +34,7 @@ const nextConfig = {
       "assets.aceternity.com",
       "cdn-icons-png.flaticon.com",
       "i.imgur.com",
+      "cdn.discordapp.com",
     ], // Allow images from Unsplash
   },
   distDir: "build",

@@ -164,19 +164,19 @@ const data = [
   {
     category: "Extensive Publications",
     title: "Empowering Innovation Through IEEE Access.",
-    src: "https://i.imgur.com/jKnX3fX.png",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328430287784251403/A1.png?ex=6786ac9d&is=67855b1d&hm=845a6f583ab325cca44a266d325ea4f01c57a9d3c73684c3cf9e6f964fb7dd3d&",
     content: <DummyContent />,
   },
   {
     category: "Global Networking",
     title: "Engage, Learn, and Advance",
-    src: "https://i.imgur.com/u5fQG1H.jpeg",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328430288078110781/A2.jpeg?ex=6786ac9d&is=67855b1d&hm=06900885fe236fa82441ba0720960856817973a168d846e17714633c8cd05d34&",
     content: <DummyContent2 />,
   },
   {
     category: "Member-Only Discounts",
     title: "Elevate Your Expertise",
-    src: "https://i.imgur.com/oNQq9cP.jpeg",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328430288333701151/A3.jpeg?ex=6786ac9d&is=67855b1d&hm=9c18a8e09f4d8fa9756d6b768168dfc5f511df6b204c4a8e47e29fdb52ba120f&",
     content: <DummyContent3 />,
   },
 
