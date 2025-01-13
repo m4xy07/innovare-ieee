@@ -24,23 +24,23 @@ const testimonials = [
   {
     text: "My membership has allowed access to a vast collection of research papers and articles that were previously inaccessible, making it so much easier stay updated with the latest advancements.",
     imageSrc: avatar2.src,
-    name: "Alisha Kalokhe"
+    name: "Alisha Kalokhe",
     username: "alisha.kalokhe@innovare.dev",
   },
   {
     text: "Research and browsing on any topic have become vastly more convenient thanks to the extensive resources available through IEEE.",
     imageSrc: avatar3.src,
     name: "Anushka Patil",
-    username: "anushka.patil@innovaere.dev",
+    username: "anushka.patil@innovare.dev",
   },
   {
-    text: "Being part of the Chapter has allowed me to network with industry leaders, collaborate with academia, and connect with top researchers, opening doors for potential mentorship."
+    text: "Being part of the Chapter has allowed me to network with industry leaders, collaborate with academia, and connect with top researchers, opening doors for potential mentorship.",
     imageSrc: avatar4.src,
     name: "Hiren Patel",
     username: "hiren.patel@innovare.dev",
   },
   {
-    text: "Attending in-house workshops and projects has deepened my understanding of emerging technologies, and helping organize them further boosts my technical knowledge."
+    text: "Attending in-house workshops and projects has deepened my understanding of emerging technologies, and helping organize them further boosts my technical knowledge.",
     imageSrc: avatar5.src,
     name: "Bhumika Gurjar",
     username: "bhumika.gurjar@innovare.dev",
@@ -67,7 +67,7 @@ const testimonials = [
     text: "Quantitative research work has never been easier due the Chapter and organisation's vast reach.",
     imageSrc: avatar9.src,
     name: "Aneeqa Inamdar",
-    username: "anneqa.inamdar@innovare.dev",
+    username: "aneeqa.inamdar@innovare.dev",
   },
 ];
 
