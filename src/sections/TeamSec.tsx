@@ -16,13 +16,13 @@ const TeamSec = () => {
             <div className='container flex md:flex-row gap-6 pb-6 sm:flex-col'>
             <MorphingDialogBasicOne
                 dialogData={{
-                    title: "Dr.Swati Shirke-Deshmukh",
-                    imageSrc: "/images/Team/SwatiShrike.jpeg",
+                    title: "Dr. Swati Shirke-Deshmukh",
+                    imageSrc: "/images/Team/SwatiShirke.jpeg",
                     imageAlt:
                     "Swati Shirke-Deshmukh [Faculty co-ordinator]",
                     subtitle: "Faculty co-ordinator",
                     description:
-                    "Dr. Swati Shirke-Deshmukh is a faculty co-ordinator of the team. She is a professor in the department of Computer Engineering at PCCOE. She has a keen interest in the field of Machine Learning and Artificial Intelligence.",
+                    "Dr. Swati Shirke-Deshmukh is a faculty co-ordinator of the team. She is a professor in the department of Computer Engineering at PCU. She has a keen interest in the field of Machine Learning and Artificial Intelligence.",
                 }}
                 />
 
@@ -137,7 +137,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Anushka Patil",
-                    imageSrc: "/images/Tech/anushka.jpeg",
+                    imageSrc: "/images/Team/anushka.jpeg",
                     imageAlt:
                     "Anushka Patil - Promotion",
                     subtitle: "Head, Promotion Team",
@@ -184,7 +184,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Viraj Awate",
-                    imageSrc: "/images/Tech/Viraj.jpg",
+                    imageSrc: "/images/Team/Viraj.jpg",
                     imageAlt:
                     "Viraj Awate",
                     subtitle: "Head, Design Team",
@@ -197,7 +197,7 @@ const TeamSec = () => {
             <MorphingDialogBasicOne
                 dialogData={{
                     title: "Alisha Kalokhe",
-                    imageSrc: "/images/Tech/Alisha.jpg",
+                    imageSrc: "/images/Team/Alisha.jpg",
                     imageAlt:
                     "Alisha Kalokhe",
                     subtitle: "Vice-Head, Design Team",
@@ -256,7 +256,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Sairaj Salunke",
-                    imageSrc: "/images/Tech/Sairaj.jpg",
+                    imageSrc: "/images/Team/Sairaj.jpg",
                     imageAlt:
                     "Sairaj Salunke",
                     subtitle: "Vice-Head, Content Team",
@@ -269,7 +269,7 @@ const TeamSec = () => {
             <MorphingDialogBasicOne
                 dialogData={{
                     title: "Vishvam Ghorpade",
-                    imageSrc: "/images/Tech/Vishvam.jpg",
+                    imageSrc: "/images/Team/Vishvam.jpg",
                     imageAlt:
                     "Vishvam Ghorpade",
                     subtitle: "Vice-Head, Content Team",
@@ -281,7 +281,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Suraj Madane",
-                    imageSrc: "/images/Tech/SurajM.jpeg",
+                    imageSrc: "/images/Team/SurajM.jpeg",
                     imageAlt:
                     "Suraj Madane",
                     subtitle: "Head, People Management",
@@ -305,7 +305,7 @@ const TeamSec = () => {
             <MorphingDialogBasicOne
                 dialogData={{
                     title: "Swarangi Kothawade",
-                    imageSrc: "/images/Tech/Swarangi.jpeg",
+                    imageSrc: "/images/Team/Swarangi.jpeg",
                     imageAlt:
                     "Swarangi Kothawade",
                     subtitle: "Head, Technical Workshop",
@@ -328,7 +328,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Shubham Gayakwad",
-                    imageSrc: "/images/Tech/Shubham.jpeg",
+                    imageSrc: "/images/Team/Shubham.jpeg",
                     imageAlt:
                     "Shubham Gayakwad",
                     subtitle: "Member, Technical Workshop",
@@ -341,7 +341,7 @@ const TeamSec = () => {
             <MorphingDialogBasicOne
                 dialogData={{
                     title: "Abhijeet Chavan",
-                    imageSrc: "/images/Tech/Abhijeet.jpg",
+                    imageSrc: "/images/Team/Abhijeet.jpg",
                     imageAlt:
                     "Abhijeet Chavan",
                     subtitle: "Voluntary Coordinator",
@@ -353,7 +353,7 @@ const TeamSec = () => {
                 <MorphingDialogBasicOne
                 dialogData={{
                     title: "Rajkunvar Mohite",
-                    imageSrc: "/images/Tech/Rajkunvar.jpg",
+                    imageSrc: "/images/Team/Rajkunvar.jpg",
                     imageAlt:
                     "Rajkunvar Mohite",
                     subtitle: "Voluntary Coordinator",
