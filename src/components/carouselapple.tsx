@@ -22,21 +22,23 @@ const DummyContent = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-[#F5F5F7]  md:p-14 rounded-3xl mb-4"
           >
-            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto pb-4">
               <span className="font-bold text-neutral-700">
                 Vast Accessibility to Publications
               </span>{" "}
               Members receive access to IEEE&apos;s extensive library of technical papers, journals, and conference proceedings, which cover the latest innovations and research in engineering, technology, and applied sciences.
             </p>
+            
             <Image
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+              src="/images/CarImg1.webp"
+              alt="Library image"
+              height="1280"
+              width="1920"
+              className="rounded-xl h-full w-full mx-auto object-cover"
             />
+            
           </div>
         );
       })}
@@ -51,20 +53,20 @@ const DummyContent2 = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-[#F5F5F7] md:p-14 rounded-3xl mb-4"
           >
-            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto pb-4">
               <span className="font-bold text-neutral-700">
                 Global Networking
               </span>{" "}
               IEEE provides opportunities to connect with a global community of professionals. Members can attend conferences, webinars, and local chapter events, which facilitate knowledge exchange and career growth.
             </p>
             <Image
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+              src="/images/CarImg2.webp"
+              alt="Library image"
+              height="1280"
+              width="1920"
+              className="rounded-xl h-full w-full mx-auto object-cover"
             />
           </div>
         );
@@ -80,20 +82,20 @@ const DummyContent3 = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-[#F5F5F7] md:p-14 rounded-3xl mb-4"
           >
-            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto pb-4">
               <span className="font-bold text-neutral-700">
                 Member-Only Discounts
               </span>{" "}
               IEEE members enjoy reduced fees for attending IEEE-sponsored conferences, workshops, and events, providing access to valuable learning experiences and professional networking opportunities.
             </p>
             <Image
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+              src="/images/CarImg3.webp"
+              alt="Library image"
+              height="1280"
+              width="1920"
+              className="rounded-xl h-full w-full mx-auto object-cover"
             />
           </div>
         );
@@ -109,20 +111,20 @@ const DummyContent4 = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-[#F5F5F7] md:p-14 rounded-3xl mb-4"
           >
-            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto pb-4">
               <span className="font-bold text-neutral-700">
                 Exclusive Software-Use
               </span>{" "}
               Members get access to specialized software tools and platforms, such as IEEE Xplore, which are valuable for research, design, and development in engineering and technology fields.
             </p>
             <Image
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+              src="/images/CarImg4.webp"
+              alt="Library image"
+              height="1280"
+              width="1920"
+              className="rounded-xl h-full w-full mx-auto object-cover"
             />
           </div>
         );
@@ -138,20 +140,20 @@ const DummyContent5 = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-[#F5F5F7] md:p-14 rounded-3xl mb-4"
           >
-            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto pb-4">
               <span className="font-bold text-neutral-700">
                 Professional Recognition
               </span>{" "}
               Being an IEEE member enhances your professional reputation. The IEEE is a globally recognized organization, and membership signals a commitment to high standards in engineering and technology.
             </p>
             <Image
-              src="https://cdn-icons-png.flaticon.com/512/16819/16819902.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+              src="/images/CarImg5.webp"
+              alt="Library image"
+              height="1280"
+              width="1920"
+              className="rounded-xl h-full w-full mx-auto object-cover"
             />
           </div>
         );
@@ -163,7 +165,7 @@ const DummyContent5 = () => {
 const data = [
   {
     category: "Extensive Publications",
-    title: "Empowering Innovation Through IEEE Access.",
+    title: "Empowering Innovation Through IEEE Access",
     src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328430287784251403/A1.png?ex=6786ac9d&is=67855b1d&hm=845a6f583ab325cca44a266d325ea4f01c57a9d3c73684c3cf9e6f964fb7dd3d&",
     content: <DummyContent />,
   },
