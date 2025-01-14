@@ -22,7 +22,7 @@ const DummyContent = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7]  md:p-14 rounded-3xl mb-4"
+            className="bg-[#F5F5F7]  sm:p-8 md:p-14 rounded-3xl mb-4"
           >
             <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto pb-4">
               <span className="font-bold text-neutral-700">

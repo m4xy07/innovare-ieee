@@ -17,7 +17,7 @@ export const ProductShowcase = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-black py-24 overflow-x-clip"
+      className="bg-black sm:py-12 md:py-24 overflow-x-clip"
       id="learn"
     >
       <div className="container">

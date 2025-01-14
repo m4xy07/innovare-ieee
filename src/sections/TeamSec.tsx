@@ -3,7 +3,7 @@ import React from "react";
 
 const TeamSec = () => {
   return (
-    <section className="py-24 bg-black  text-white">
+    <section className="sm:py-12 md:py-24 bg-black  text-white">
       <div className="container">
         <div className="section-heading pb-10">
           <h2 className="section-title text-white">The Team</h2>
@@ -11,7 +11,7 @@ const TeamSec = () => {
             Meet the Minds Behind the Magic – Our Team, Your Visionaries.
           </p>
         </div>
-        <div className="container flex md:flex-row gap-6 pb-6 sm:flex-col">
+        <div className="container flex md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Dr. Swati Shirke-Deshmukh",
@@ -44,7 +44,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Jay Patil",
@@ -77,7 +77,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Mayur Kharche",
@@ -110,7 +110,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Dhruv Choudhary",
@@ -143,7 +143,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Aditya Rasal",
@@ -176,7 +176,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Alisha Kalokhe",
@@ -209,7 +209,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Prajwal Shirude",
@@ -242,7 +242,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Vishvam Ghorpade",
@@ -275,7 +275,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Swarangi Kothawade",
@@ -308,7 +308,7 @@ const TeamSec = () => {
             }}
           />
         </div>
-        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6">
+        <div className="container flex sm:flex-col md:flex-row gap-6 pb-6 flex-col">
           <MorphingDialogBasicOne
             dialogData={{
               title: "Abhijeet Chavan",

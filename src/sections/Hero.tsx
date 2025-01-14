@@ -43,28 +43,28 @@ export const Hero = () => {
     >
       <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[768px] lg:w-[3048px] lg:h-[1200px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_100%,#9560EB)] top-[calc(100%-96px)] sm:top-[calc(100%-128px)]"></div>
       <div className="container relative">
-        <div className="md:flex items-center">
+        <div className="sm:flex sm:flex-col md:flex-row items-center">
           <div className="md:w-[478px]">  
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mt-6">
+            <h1 className="text-5xl md:text-7xl sm:text-center md:text-left font-bold tracking-tighter text-white mt-6">
               Innovare
             </h1>
-            <p className="text-xl text-white tracking-tight text-opacity-60 mt-6">
+            <p className="text-xl text-white sm:text-center md:text-left tracking-tight text-opacity-60 mt-6">
               Innovate. 
               Inspire. 
               Impact.<br />
               PCU&apos;s IEEE Student Chapter.
             </p>
-            <div className="flex gap-1 items-center mt-[30px]">
+            <div className="flex gap-1 sm:justify-center md:justify-start items-center mt-[30px]">
               <ShimmerButtonDemo2 />
             </div>
           </div>
-          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
+          <div className="mt-20 md:mt-0 sm:h-[540px] md:h-[648px] md:flex-1 relative">
             
             
             <motion.img
               src={Robot2.src}
               alt="Piece1 image"
-              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-32 md:top-56 lg:left-40 lg:top-72 z-40"
+              className="sm:absolute sm:h-auto sm:w-[400px] md:w-[500px] sm:max-w-none sm:top-48 sm:-left-48 md:-left-32 md:top-56 lg:left-40 lg:top-72 z-40"
               animate={{
                 translateY: [20, -20],
               }}
@@ -78,7 +78,7 @@ export const Hero = () => {
             <motion.img
               src={Robot1.src}
               alt="Robot image"
-              className="md:absolute md:h-[442.8px] md:w-[345.6px] md:max-w-none md:-left-12 md:top-12 lg:left-60 lg:top-28 z-20"
+              className="sm:absolute sm:h-[442.8px] sm:w-[345.6px] sm:max-w-none sm:-left-40 sm:top-12 md:-left-12 md:top-12 lg:left-60 lg:top-28 z-20"
               animate={{
                 translateY: [-10, 10],
               }}
@@ -92,7 +92,7 @@ export const Hero = () => {
             <motion.img
               src={Robot3.src}
               alt="Piece2 image"
-              className="md:absolute md:h-auto md:w-[500px] md:max-w-none md:-left-32 md:top-24 lg:left-40 lg:top-32"
+              className="sm:absolute sm:h-auto sm:w-[400px] md:w-[500px] sm:max-w-none sm:top-24 sm:-left-48 md:-left-32 md:top-24 lg:left-40 lg:top-32"
               animate={{
                 translateY: [20, -20],
               }}

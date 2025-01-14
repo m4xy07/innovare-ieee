@@ -4,7 +4,7 @@ import React from 'react'
 
 const ContactSec = () => {
   return (
-    <section className="pt-10 h-screen pb-24 bg-black text-white flex flex-col items-center justify-center text-center gap-[10rem] md:max-w-3xl sm:max-w-[240px] mx-auto">
+    <section className="md:pt-2 pt-4 lg:pt-10 h-screen md:pb-12 lg:pb-24 bg-black text-white flex flex-col items-center justify-center text-center gap-[6rem] md:max-w-3xl sm:max-w-[240px] mx-auto">
       <DotPatternDemo2/>
         <div className='z-20'>
             <div className="section-heading-2">

@@ -2,7 +2,7 @@ import { ExpandableCardDemo } from "@/components/expandablecards";
 
 export const FutureEvents = () => {
   return (
-    <section className="py-24 bg-black  text-white">
+    <section className="py-12 md:py-24 bg-black  text-white">
       <div className="container">
         <div className="section-heading">
           <h2 className="section-title text-white">Upcoming Events</h2>

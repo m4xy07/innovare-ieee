@@ -30,18 +30,18 @@ export function FeaturesSectionDemo() {
         "Building stronger relationships with leading companies.",
       skeleton: <SkeletonThree />,
       className:
-        "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
+        "col-span-1 lg:col-span-3 lg:border-r lg:border-b-0 sm:border-b  dark:border-neutral-800",
     },
     {
       title: "Expand outreach",
       description:
         "Reaching more students across various departments.",
       skeleton: <SkeletonFour />,
-      className: "col-span-1 lg:col-span-3 border-b lg:border-none",
+      className: "col-span-1 lg:col-span-3 lg:border-b lg:border-none",
     },
   ];
   return (
-    <div className="relative z-20 py-10 lg:py-40 max-w-5xl mx-auto">
+    <div className="relative z-20 py-10 lg:py-40 md:max-w-2xl sm:max-w-sm lg:max-w-5xl mx-auto">
       <div className="container">
             <div className="section-heading-2">
               <h2 className="section-title text-white">Our Objectives</h2>
@@ -105,7 +105,7 @@ const FeatureDescription = ({ children }: { children?: React.ReactNode }) => {
 
 export const SkeletonTwo = () => {
   return (
-    <div className="relative flex py-2 px-2 gap-10 h-full">
+    <div className="relative flex py-2 px-2 gap-10 h-full items-center justify-center">
       <IconCloudDemo />
     </div>
   );
