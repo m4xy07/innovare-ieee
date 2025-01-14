@@ -229,7 +229,7 @@ const cards = [
     content: () => {
       return (
         <p>
-          Empowering students to master Java programming through hands-on learning and practical exercises. This workshop is designed to build a strong foundation in Java, covering key concepts, best practices, and real-world applications. <br /> <br /> Whether you're a beginner or looking to deepen your knowledge, join us to enhance your programming skills and boost your confidence in Java development.
+          Empowering students to master Java programming through hands-on learning and practical exercises. This workshop is designed to build a strong foundation in Java, covering key concepts, best practices, and real-world applications. <br /> <br /> Whether you&apos;re a beginner or looking to deepen your knowledge, join us to enhance your programming skills and boost your confidence in Java development.
         </p>
       );
     },
@@ -258,7 +258,7 @@ const cards = [
     content: () => {
       return (
         <p>
-          Dive into the world of cutting-edge technology with our engaging tech webinar. Discover emerging trends, groundbreaking innovations, and practical applications shaping the future of industries. Whether you're a tech enthusiast, a student, or a professional, this session offers valuable insights, expert perspectives, and interactive discussions. <br /> <br /> Stay ahead in the tech world and gain inspiration for your next big idea!
+          Dive into the world of cutting-edge technology with our engaging tech webinar. Discover emerging trends, groundbreaking innovations, and practical applications shaping the future of industries. Whether you&apos;re a tech enthusiast, a student, or a professional, this session offers valuable insights, expert perspectives, and interactive discussions. <br /> <br /> Stay ahead in the tech world and gain inspiration for your next big idea!
         </p>
       );
     },
@@ -272,7 +272,7 @@ const cards = [
     content: () => {
       return (
         <p>
-          Participate in our project competition and bring your innovative ideas to life! This platform offers students and professionals the chance to present their projects to industry experts and peers. Gain recognition, receive valuable feedback, and compete for exciting prizes.<br /> <br /> Whether it's technology, science, or design, this competition celebrates creativity and problem-solving. Join us to inspire, innovate, and make an impact!
+          Participate in our project competition and bring your innovative ideas to life! This platform offers students and professionals the chance to present their projects to industry experts and peers. Gain recognition, receive valuable feedback, and compete for exciting prizes.<br /> <br /> Whether it&apos;s technology, science, or design, this competition celebrates creativity and problem-solving. Join us to inspire, innovate, and make an impact!
         </p>
       );
     },
