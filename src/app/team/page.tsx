@@ -2,6 +2,7 @@ import { Header } from "@/sections/Header";
 import { CallToAction } from "@/sections/CallToAction";
 import { Footer } from "@/sections/Footer";
 import TeamSec from "@/sections/TeamSec";
+import Navbar from "@/sections/Navbar";
 
 
 
@@ -9,7 +10,7 @@ import TeamSec from "@/sections/TeamSec";
 export default function Mission() {
   return (
     <>
-      <Header />
+      <Navbar />
       <TeamSec />
       <CallToAction />
       <Footer />

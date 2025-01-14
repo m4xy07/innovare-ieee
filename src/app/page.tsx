@@ -7,12 +7,13 @@ import { Testimonials } from "@/sections/Testimonials";
 import { CallToAction } from "@/sections/CallToAction";
 import { Footer } from "@/sections/Footer";
 import { Gain } from "@/sections/Gain";
+import Navbar from "@/sections/Navbar";
 
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <Navbar />
       <Hero />
       <LogoTicker />
       <ProductShowcase />

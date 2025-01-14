@@ -3,6 +3,7 @@ import { CallToAction } from "@/sections/CallToAction";
 import { Footer } from "@/sections/Footer";
 import { FutureEvents } from "@/sections/FutureEvents";
 import { PastEvents } from "@/sections/PastEvents";
+import Navbar from "@/sections/Navbar";
 
 
 
@@ -11,7 +12,7 @@ import { PastEvents } from "@/sections/PastEvents";
 export default function Mission() {
   return (
     <>
-      <Header />
+      <Navbar />
       <FutureEvents/>
       <PastEvents/>
       <CallToAction />

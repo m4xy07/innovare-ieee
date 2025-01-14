@@ -5,13 +5,14 @@ import Philosophy from "@/sections/Philosophy";
 import MissionSec from "@/sections/MissionSec";
 import VisionSec from "@/sections/VisionSec";
 import ObjectiveSec from "@/sections/ObjectiveSec";
+import Navbar from "@/sections/Navbar";
 
 
 
 export default function Mission() {
   return (
     <>
-      <Header />
+      <Navbar />
       <ObjectiveSec />
       <MissionSec />
       <VisionSec />

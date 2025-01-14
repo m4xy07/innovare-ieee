@@ -45,20 +45,20 @@ export const Hero = () => {
       <div className="container relative">
         <div className="sm:flex sm:flex-col md:flex-row items-center">
           <div className="md:w-[478px]">  
-            <h1 className="text-5xl md:text-7xl sm:text-center md:text-left font-bold tracking-tighter text-white mt-6">
+            <h1 className="text-5xl md:text-7xl text-center md:text-left font-bold tracking-tighter text-white mt-6">
               Innovare
             </h1>
-            <p className="text-xl text-white sm:text-center md:text-left tracking-tight text-opacity-60 mt-6">
+            <p className="text-xl text-white text-center md:text-left tracking-tight text-opacity-60 mt-6">
               Innovate. 
               Inspire. 
               Impact.<br />
               PCU&apos;s IEEE Student Chapter.
             </p>
-            <div className="flex gap-1 sm:justify-center md:justify-start items-center mt-[30px]">
+            <div className="flex gap-1 justify-center md:justify-start items-center mt-[30px]">
               <ShimmerButtonDemo2 />
             </div>
           </div>
-          <div className="mt-20 md:mt-0 sm:h-[540px] md:h-[648px] md:flex-1 relative">
+          <div className="mt-20 md:mt-0 h-[540px] md:h-[648px] md:flex-1 relative">
             
             
             <motion.img
