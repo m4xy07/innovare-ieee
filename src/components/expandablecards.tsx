@@ -206,112 +206,73 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Desc1",
-    title: "Event 1",
-    src: "https://assets.aceternity.com/demos/lana-del-rey.jpeg",
-    ctaText: "Register",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "Innovating ideas and technologies.",
+    title: "Tech for Rural Development",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328580444433678416/images.png?ex=67873875&is=6785e6f5&hm=4d59cff2adb9e4345f37fc83bf8553933ede42cac1acd8b75329ce1bd895d3b0&",
+    ctaText: "Upcoming",
+    ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
+          Empowering rural communities through innovative ideas and cutting-edge technologies. Our mission is to address the unique challenges faced by rural areas by developing sustainable solutions that improve livelihoods, enhance access to essential resources, and promote inclusive growth. <br /> <br /> Through technology, we aim to bridge the gap and bring meaningful change to rural lives.
+          
         </p>
       );
     },
   },
   {
-    description: "Desc2",
-    title: "Event 2",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
-    ctaText: "Register",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "Helping students get a better grasp of Java",
+    title: "Java Programming Workshop",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328581460462141484/image.png?ex=67873968&is=6785e7e8&hm=aa8e229412ea65f0f132f49835577f3ed0be2f6fbba68177fcf83f2308319eff&",
+   ctaText: "Upcoming",
+    ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-          voice and profound lyrics that resonate deeply with his audience. Born
-          in the village of Khant Maanpur in Punjab, India, he has become a
-          cultural icon in the Punjabi music industry. <br /> <br /> His songs
-          often reflect the struggles and triumphs of everyday life, capturing
-          the essence of Punjabi culture and traditions. With a career spanning
-          over two decades, Babu Maan has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
+          Empowering students to master Java programming through hands-on learning and practical exercises. This workshop is designed to build a strong foundation in Java, covering key concepts, best practices, and real-world applications. <br /> <br /> Whether you're a beginner or looking to deepen your knowledge, join us to enhance your programming skills and boost your confidence in Java development.
         </p>
       );
     },
   },
 
   {
-    description: "Desc3",
-    title: "Event 3",
-    src: "https://assets.aceternity.com/demos/metallica.jpeg",
-    ctaText: "Register",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "Essentials of writing impactful research papers",
+    title: "Research Paper Writing Session",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328582194167283764/image.png?ex=67873a16&is=6785e896&hm=61b5a0e73057961b2497f17c329654bf10a05097e57fe18644e4a884a9d53f58&",
+   ctaText: "Upcoming",
+    ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Metallica, an iconic American heavy metal band, is renowned for their
-          powerful sound and intense performances that resonate deeply with
-          their audience. Formed in Los Angeles, California, they have become a
-          cultural icon in the heavy metal music industry. <br /> <br /> Their
-          songs often reflect themes of aggression, social issues, and personal
-          struggles, capturing the essence of the heavy metal genre. With a
-          career spanning over four decades, Metallica has released numerous hit
-          albums and singles that have garnered them a massive fan following
-          both in the United States and abroad.
+          Master the art of crafting compelling and well-structured research papers in this comprehensive session. Designed for students and professionals, this workshop covers key aspects like topic selection, literature review, methodology, citation styles, and effective presentation. <br /> <br /> Gain insights into publishing standards and peer-review processes to enhance your academic and professional writing. Join us to elevate your research communication skills!
         </p>
       );
     },
   },
   {
-    description: "Desc4",
-    title: "Event 4",
-    src: "https://assets.aceternity.com/demos/led-zeppelin.jpeg",
-    ctaText: "Register",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "Explore the latest innovations and trends ",
+    title: "Technical Webinar",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328582778551537664/technology-concept-flat-vector-style-illustration-featuring-webinar-design-elements_1226483-7586.png?ex=67873aa2&is=6785e922&hm=557a3683ab1aaa867b8a16d936bec19ad3a35f91282f33f543059d20fcc070ca&",
+   ctaText: "Upcoming",
+    ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Led Zeppelin, a legendary British rock band, is renowned for their
-          innovative sound and profound impact on the music industry. Formed in
-          London in 1968, they have become a cultural icon in the rock music
-          world. <br /> <br /> Their songs often reflect a blend of blues, hard
-          rock, and folk music, capturing the essence of the 1970s rock era.
-          With a career spanning over a decade, Led Zeppelin has released
-          numerous hit albums and singles that have garnered them a massive fan
-          following both in the United Kingdom and abroad.
+          Dive into the world of cutting-edge technology with our engaging tech webinar. Discover emerging trends, groundbreaking innovations, and practical applications shaping the future of industries. Whether you're a tech enthusiast, a student, or a professional, this session offers valuable insights, expert perspectives, and interactive discussions. <br /> <br /> Stay ahead in the tech world and gain inspiration for your next big idea!
         </p>
       );
     },
   },
   {
-    description: "Desc5",
-    title: "Event 5",
-    src: "https://assets.aceternity.com/demos/toh-phir-aao.jpeg",
-    ctaText: "Register",
-    ctaLink: "https://ui.aceternity.com/templates",
+    description: "Showcase your innovation and creativity",
+    title: "Project Expo",
+    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328583700673204285/Manage_money-amico.png?ex=67873b7e&is=6785e9fe&hm=06ed042697cb0fed6806c96bb1b20b2edb53dd6169be75754d7793b75ff91a4a&",
+   ctaText: "Upcoming",
+    ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          &quot;Aawarapan&quot;, a Bollywood movie starring Emraan Hashmi, is
-          renowned for its intense storyline and powerful performances. Directed
-          by Mohit Suri, the film has become a significant work in the Indian
-          film industry. <br /> <br /> The movie explores themes of love,
-          redemption, and sacrifice, capturing the essence of human emotions and
-          relationships. With a gripping narrative and memorable music,
-          &quot;Aawarapan&quot; has garnered a massive fan following both in
-          India and abroad, solidifying Emraan Hashmi&apos;s status as a
-          versatile actor.
+          Participate in our project competition and bring your innovative ideas to life! This platform offers students and professionals the chance to present their projects to industry experts and peers. Gain recognition, receive valuable feedback, and compete for exciting prizes.<br /> <br /> Whether it's technology, science, or design, this competition celebrates creativity and problem-solving. Join us to inspire, innovate, and make an impact!
         </p>
       );
     },
