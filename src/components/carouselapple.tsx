@@ -28,9 +28,12 @@ const DummyContent = () => {
               <span className="font-bold text-neutral-700">
                 Vast Accessibility to Publications
               </span>{" "}
-              Members receive access to IEEE&apos;s extensive library of technical papers, journals, and conference proceedings, which cover the latest innovations and research in engineering, technology, and applied sciences.
+              Members receive access to IEEE&apos;s extensive library of
+              technical papers, journals, and conference proceedings, which
+              cover the latest innovations and research in engineering,
+              technology, and applied sciences.
             </p>
-            
+
             <Image
               src="/images/CarImg1.webp"
               alt="Library image"
@@ -38,7 +41,6 @@ const DummyContent = () => {
               width="1920"
               className="rounded-xl h-full w-full mx-auto object-cover"
             />
-            
           </div>
         );
       })}
@@ -59,7 +61,10 @@ const DummyContent2 = () => {
               <span className="font-bold text-neutral-700">
                 Global Networking
               </span>{" "}
-              IEEE provides opportunities to connect with a global community of professionals. Members can attend conferences, webinars, and local chapter events, which facilitate knowledge exchange and career growth.
+              IEEE provides opportunities to connect with a global community of
+              professionals. Members can attend conferences, webinars, and local
+              chapter events, which facilitate knowledge exchange and career
+              growth.
             </p>
             <Image
               src="/images/CarImg2.webp"
@@ -88,7 +93,9 @@ const DummyContent3 = () => {
               <span className="font-bold text-neutral-700">
                 Member-Only Discounts
               </span>{" "}
-              IEEE members enjoy reduced fees for attending IEEE-sponsored conferences, workshops, and events, providing access to valuable learning experiences and professional networking opportunities.
+              IEEE members enjoy reduced fees for attending IEEE-sponsored
+              conferences, workshops, and events, providing access to valuable
+              learning experiences and professional networking opportunities.
             </p>
             <Image
               src="/images/CarImg3.webp"
@@ -117,7 +124,9 @@ const DummyContent4 = () => {
               <span className="font-bold text-neutral-700">
                 Exclusive Software-Use
               </span>{" "}
-              Members get access to specialized software tools and platforms, such as IEEE Xplore, which are valuable for research, design, and development in engineering and technology fields.
+              Members get access to specialized software tools and platforms,
+              such as IEEE Xplore, which are valuable for research, design, and
+              development in engineering and technology fields.
             </p>
             <Image
               src="/images/CarImg4.webp"
@@ -146,7 +155,9 @@ const DummyContent5 = () => {
               <span className="font-bold text-neutral-700">
                 Professional Recognition
               </span>{" "}
-              Being an IEEE member enhances your professional reputation. The IEEE is a globally recognized organization, and membership signals a commitment to high standards in engineering and technology.
+              Being an IEEE member enhances your professional reputation. The
+              IEEE is a globally recognized organization, and membership signals
+              a commitment to high standards in engineering and technology.
             </p>
             <Image
               src="/images/CarImg5.webp"
@@ -166,19 +177,19 @@ const data = [
   {
     category: "Extensive Publications",
     title: "Empowering Innovation Through IEEE Access",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328430287784251403/A1.png?ex=6786ac9d&is=67855b1d&hm=845a6f583ab325cca44a266d325ea4f01c57a9d3c73684c3cf9e6f964fb7dd3d&",
+    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/A1.png",
     content: <DummyContent />,
   },
   {
     category: "Global Networking",
     title: "Engage, Learn, and Advance",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328430288078110781/A2.jpeg?ex=6786ac9d&is=67855b1d&hm=06900885fe236fa82441ba0720960856817973a168d846e17714633c8cd05d34&",
+    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/A2.jpeg",
     content: <DummyContent2 />,
   },
   {
     category: "Member-Only Discounts",
     title: "Elevate Your Expertise",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328430288333701151/A3.jpeg?ex=6786ac9d&is=67855b1d&hm=9c18a8e09f4d8fa9756d6b768168dfc5f511df6b204c4a8e47e29fdb52ba120f&",
+    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/A3.jpeg",
     content: <DummyContent3 />,
   },
 
@@ -193,5 +204,5 @@ const data = [
     title: "Build a Legacy",
     src: "https://images.unsplash.com/photo-1681505526188-b05e68c77582?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content: <DummyContent5 />,
-  }
+  },
 ];
