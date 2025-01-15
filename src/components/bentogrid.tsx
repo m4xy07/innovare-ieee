@@ -11,31 +11,27 @@ export function FeaturesSectionDemo() {
   const features = [
     {
       title: "Promote research culture",
-      description:
-        "Encouraging student involvement in research projects.",
+      description: "Encouraging student involvement in research projects.",
       skeleton: <SkeletonOne />,
       className:
         "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
     },
     {
       title: "Develop skill-based programs",
-      description:
-        "Offering specialized workshops and certifications.",
+      description: "Offering specialized workshops and certifications.",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
     },
     {
       title: "Strengthen industry connect",
-      description:
-        "Building stronger relationships with leading companies.",
+      description: "Building stronger relationships with leading companies.",
       skeleton: <SkeletonThree />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r lg:border-b-0 sm:border-b  dark:border-neutral-800",
     },
     {
       title: "Expand outreach",
-      description:
-        "Reaching more students across various departments.",
+      description: "Reaching more students across various departments.",
       skeleton: <SkeletonFour />,
       className: "col-span-1 lg:col-span-3 lg:border-b lg:border-none",
     },
@@ -43,14 +39,13 @@ export function FeaturesSectionDemo() {
   return (
     <div className="relative z-20 py-10 lg:py-40 md:max-w-2xl sm:max-w-sm lg:max-w-5xl mx-auto">
       <div className="container">
-            <div className="section-heading-2">
-              <h2 className="section-title text-white">Our Objectives</h2>
-              <p className="section-description mt-5 text-white text-opacity-30 ">
-              Cultivating Curiosity, Driving Discovery.
-              </p>
-            </div>
-            
-          </div>
+        <div className="section-heading-2">
+          <h2 className="section-title text-white">Our Objectives</h2>
+          <p className="section-description mt-5 text-white text-opacity-30 ">
+            Cultivating Curiosity, Driving Discovery.
+          </p>
+        </div>
+      </div>
 
       <div className="relative ">
         <div className="grid grid-cols-1 lg:grid-cols-6 mt-12 xl:border border rounded-md dark:border-neutral-800">
@@ -112,22 +107,20 @@ export const SkeletonTwo = () => {
 };
 
 export const SkeletonThree = () => {
-  return (
-    <AnimatedBeamDemo />
-  );
+  return <AnimatedBeamDemo />;
 };
 
 export const SkeletonOne = () => {
   const images = [
-    "/images/Research1.jpeg",
-    "/images/Research2.jpeg",
-    "/images/Research3.jpeg",
-    "/images/Research4.jpeg",
-    "/images/Research5.jpeg",
-    "/images/Research6.jpeg",
-    "/images/Research7.jpeg",
-    "/images/Research8.jpeg",
-    "/images/Research9.jpeg"
+    "/images/Research1.webp",
+    "/images/Research2.webp",
+    "/images/Research3.webp",
+    "/images/Research4.webp",
+    "/images/Research5.webp",
+    "/images/Research6.webp",
+    "/images/Research7.webp",
+    "/images/Research8.webp",
+    "/images/Research9.webp",
   ];
 
   const imageVariants = {
@@ -168,7 +161,7 @@ export const SkeletonOne = () => {
         ))}
       </div>
       <div className="flex flex-row">
-      {images.slice(-4).map((image, idx) => (
+        {images.slice(-4).map((image, idx) => (
           <motion.div
             key={"images-second" + idx}
             style={{
