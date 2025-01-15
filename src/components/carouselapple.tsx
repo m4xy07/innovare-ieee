@@ -177,19 +177,19 @@ const data = [
   {
     category: "Extensive Publications",
     title: "Empowering Innovation Through IEEE Access",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/A1.png",
+    src: "/images/A1.png",
     content: <DummyContent />,
   },
   {
     category: "Global Networking",
     title: "Engage, Learn, and Advance",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/A2.jpeg",
+    src: "/images/A2.jpeg",
     content: <DummyContent2 />,
   },
   {
     category: "Member-Only Discounts",
     title: "Elevate Your Expertise",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/A3.jpeg",
+    src: "/images/A3.jpeg",
     content: <DummyContent3 />,
   },
 
