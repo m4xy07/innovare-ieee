@@ -46,7 +46,6 @@ export function ExpandableCardDemo() {
         {active && typeof active === "object" ? (
           <div className=" fixed justify-center max-w-96 md:max-w-fit mx-auto inset-0  grid place-items-center z-[100]">
             <motion.button
-              
               key={`button-${active.title}-${id}`}
               layout
               initial={{
@@ -64,10 +63,7 @@ export function ExpandableCardDemo() {
               className=" absolute top-2 right-2 hidden items-center justify-center bg-white rounded-full h-6 w-6"
               onClick={() => setActive(null)}
             >
-              
-                <CloseIcon />
-              
-              
+              <CloseIcon />
             </motion.button>
             <motion.div
               layoutId={`card-${active.title}-${id}`}
@@ -212,14 +208,18 @@ const cards = [
   {
     description: "Innovating ideas and technologies.",
     title: "Tech for Rural Development",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328580444433678416/images.png?ex=67873875&is=6785e6f5&hm=4d59cff2adb9e4345f37fc83bf8553933ede42cac1acd8b75329ce1bd895d3b0&",
+    src: "https://github.com/m4xy07/innovare-website-ieee/blob/main/e1.png",
     ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Empowering rural communities through innovative ideas and cutting-edge technologies. Our mission is to address the unique challenges faced by rural areas by developing sustainable solutions that improve livelihoods, enhance access to essential resources, and promote inclusive growth. <br /> <br /> Through technology, we aim to bridge the gap and bring meaningful change to rural lives.
-          
+          Empowering rural communities through innovative ideas and cutting-edge
+          technologies. Our mission is to address the unique challenges faced by
+          rural areas by developing sustainable solutions that improve
+          livelihoods, enhance access to essential resources, and promote
+          inclusive growth. <br /> <br /> Through technology, we aim to bridge
+          the gap and bring meaningful change to rural lives.
         </p>
       );
     },
@@ -227,13 +227,18 @@ const cards = [
   {
     description: "Helping students get a better grasp of Java",
     title: "Java Programming Workshop",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328581460462141484/image.png?ex=67873968&is=6785e7e8&hm=aa8e229412ea65f0f132f49835577f3ed0be2f6fbba68177fcf83f2308319eff&",
-   ctaText: "Upcoming",
+    src: "https://github.com/m4xy07/innovare-website-ieee/blob/main/e2.png",
+    ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Empowering students to master Java programming through hands-on learning and practical exercises. This workshop is designed to build a strong foundation in Java, covering key concepts, best practices, and real-world applications. <br /> <br /> Whether you&apos;re a beginner or looking to deepen your knowledge, join us to enhance your programming skills and boost your confidence in Java development.
+          Empowering students to master Java programming through hands-on
+          learning and practical exercises. This workshop is designed to build a
+          strong foundation in Java, covering key concepts, best practices, and
+          real-world applications. <br /> <br /> Whether you&apos;re a beginner
+          or looking to deepen your knowledge, join us to enhance your
+          programming skills and boost your confidence in Java development.
         </p>
       );
     },
@@ -242,13 +247,19 @@ const cards = [
   {
     description: "Essentials of writing impactful research papers",
     title: "Research Paper Writing Session",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328582194167283764/image.png?ex=67873a16&is=6785e896&hm=61b5a0e73057961b2497f17c329654bf10a05097e57fe18644e4a884a9d53f58&",
-   ctaText: "Upcoming",
+    src: "https://github.com/m4xy07/innovare-website-ieee/blob/main/e3.png",
+    ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Master the art of crafting compelling and well-structured research papers in this comprehensive session. Designed for students and professionals, this workshop covers key aspects like topic selection, literature review, methodology, citation styles, and effective presentation. <br /> <br /> Gain insights into publishing standards and peer-review processes to enhance your academic and professional writing. Join us to elevate your research communication skills!
+          Master the art of crafting compelling and well-structured research
+          papers in this comprehensive session. Designed for students and
+          professionals, this workshop covers key aspects like topic selection,
+          literature review, methodology, citation styles, and effective
+          presentation. <br /> <br /> Gain insights into publishing standards
+          and peer-review processes to enhance your academic and professional
+          writing. Join us to elevate your research communication skills!
         </p>
       );
     },
@@ -256,13 +267,19 @@ const cards = [
   {
     description: "Explore the latest innovations and trends ",
     title: "Technical Webinar",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328582778551537664/technology-concept-flat-vector-style-illustration-featuring-webinar-design-elements_1226483-7586.png?ex=67873aa2&is=6785e922&hm=557a3683ab1aaa867b8a16d936bec19ad3a35f91282f33f543059d20fcc070ca&",
-   ctaText: "Upcoming",
+    src: "https://github.com/m4xy07/innovare-website-ieee/blob/main/e4.png",
+    ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Dive into the world of cutting-edge technology with our engaging tech webinar. Discover emerging trends, groundbreaking innovations, and practical applications shaping the future of industries. Whether you&apos;re a tech enthusiast, a student, or a professional, this session offers valuable insights, expert perspectives, and interactive discussions. <br /> <br /> Stay ahead in the tech world and gain inspiration for your next big idea!
+          Dive into the world of cutting-edge technology with our engaging tech
+          webinar. Discover emerging trends, groundbreaking innovations, and
+          practical applications shaping the future of industries. Whether
+          you&apos;re a tech enthusiast, a student, or a professional, this
+          session offers valuable insights, expert perspectives, and interactive
+          discussions. <br /> <br /> Stay ahead in the tech world and gain
+          inspiration for your next big idea!
         </p>
       );
     },
@@ -270,13 +287,20 @@ const cards = [
   {
     description: "Showcase your innovation and creativity",
     title: "Project Expo",
-    src: "https://cdn.discordapp.com/attachments/1319309446199115827/1328583700673204285/Manage_money-amico.png?ex=67873b7e&is=6785e9fe&hm=06ed042697cb0fed6806c96bb1b20b2edb53dd6169be75754d7793b75ff91a4a&",
-   ctaText: "Upcoming",
+    src: "https://github.com/m4xy07/innovare-website-ieee/blob/main/e5.png",
+    ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
       return (
         <p>
-          Participate in our project competition and bring your innovative ideas to life! This platform offers students and professionals the chance to present their projects to industry experts and peers. Gain recognition, receive valuable feedback, and compete for exciting prizes.<br /> <br /> Whether it&apos;s technology, science, or design, this competition celebrates creativity and problem-solving. Join us to inspire, innovate, and make an impact!
+          Participate in our project competition and bring your innovative ideas
+          to life! This platform offers students and professionals the chance to
+          present their projects to industry experts and peers. Gain
+          recognition, receive valuable feedback, and compete for exciting
+          prizes.
+          <br /> <br /> Whether it&apos;s technology, science, or design, this
+          competition celebrates creativity and problem-solving. Join us to
+          inspire, innovate, and make an impact!
         </p>
       );
     },
