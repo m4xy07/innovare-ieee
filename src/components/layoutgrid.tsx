@@ -18,7 +18,8 @@ const SkeletonOne = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-       Students immerse themselves in teamwork and problem-solving as they work passionately on their project.
+        Students immerse themselves in teamwork and problem-solving as they work
+        passionately on their project.
       </p>
     </div>
   );
@@ -32,7 +33,8 @@ const SkeletonTwo = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A moment of guidance and evaluation as ma&apos;am reviews a student&apos;s innovative project
+        A moment of guidance and evaluation as ma&apos;am reviews a
+        student&apos;s innovative project
       </p>
     </div>
   );
@@ -45,9 +47,10 @@ const SkeletonThree = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A proud moment as the event is inaugurated, symbolizing the start of an exciting journey filled with opportunities and innovation.
+        A proud moment as the event is inaugurated, symbolizing the start of an
+        exciting journey filled with opportunities and innovation.
       </p>
-    </div>  
+    </div>
   );
 };
 const SkeletonFour = () => {
@@ -58,41 +61,36 @@ const SkeletonFour = () => {
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Students join forces, combining their skills and ideas to achieve a common goal.
+        Students join forces, combining their skills and ideas to achieve a
+        common goal.
       </p>
     </div>
-  );  
+  );
 };
-
-
 
 const cards = [
   {
     id: 1,
     content: <SkeletonOne />,
     className: "md:col-span-2",
-    thumbnail:
-      "/images/PastEvent2.jpeg",
+    thumbnail: "/images/PastEvent2.webp",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
-    thumbnail:
-      "/images/PastEvent1.jpeg",
+    thumbnail: "/images/PastEvent1.webp",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
-    thumbnail:
-      "/images/PastEvent3.jpeg",
+    thumbnail: "/images/PastEvent3.webp",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
-    thumbnail:
-      "/images/PastEvent4.jpeg",
+    thumbnail: "/images/PastEvent4.webp",
   },
 ];
