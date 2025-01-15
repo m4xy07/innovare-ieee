@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 export function WorldMapDemo() {
   return (
-    <div className=" py-20 bg-black w-full">
+    <div className=" py-12 bg-black w-full">
       
       <WorldMap
         dots={[

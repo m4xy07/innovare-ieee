@@ -32,7 +32,7 @@ const features = [
 
 export const Features = () => {
   return (
-    <section className="s:py-12 md:py-24 bg-black text-white">
+    <section className="s:py-12 bg-black text-white">
       <div className="container">
         <div className="section-heading">
           <h2 className="section-title text-white">Making an impact on society</h2>
