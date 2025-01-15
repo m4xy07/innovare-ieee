@@ -19,7 +19,7 @@ const TeamSec = () => {
               imageAlt: "Swati Shirke-Deshmukh [Faculty co-ordinator]",
               subtitle: "Faculty co-ordinator",
               description:
-                "Dr. Swati Shirke-Deshmukh is a faculty co-ordinator of the team. She is a professor in the department of Computer Engineering at PCU. She has a keen interest in the field of Machine Learning and Artificial Intelligence.",
+                "Dr. Swati Shirke-Deshmukh is a faculty co-ordinator of the team. She is a Associate Professor in the department of Computer Engineering at PCU. She has a keen interest in the field of Machine Learning and Artificial Intelligence.",
             }}
           />
 
