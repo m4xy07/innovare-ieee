@@ -35,6 +35,7 @@ const nextConfig = {
       "cdn-icons-png.flaticon.com",
       "i.imgur.com",
       "cdn.discordapp.com",
+      "raw.githubusercontent.com",
     ], // Allow images from Unsplash
   },
   distDir: "build",
