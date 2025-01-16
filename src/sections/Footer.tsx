@@ -20,8 +20,14 @@ export const Footer = () => {
           <a href="/events" className="text-opacity-60 text-white hover:text-opacity-100 transition">Events</a>
           <a href="/contact" className="text-opacity-60 text-white hover:text-opacity-100 transition">Contact</a>
         </nav>
+        <div className="flex justify-center gap-6 mt-6">
+          <a href="https://twitter.com/PCUPuneOfficial" rel="noopener noreferrer"><SocialX /></a>
+          <a href="https://www.instagram.com/pcupuneofficial/" rel="noopener noreferrer"><SocialInsta /></a>
+          <a href="https://www.linkedin.com/school/pimpri-chinchwad-university/" rel="noopener noreferrer"><SocialLinkedIn /></a>
+          <a href="https://www.youtube.com/@pcupuneofficial" rel="noopener noreferrer"><SocialYoutube /></a>
+        </div>
         <p className="mt-6">
-          2025 Innovare, Aman Shaikh. All rights reserved.
+          &copy; 2025 Innovare, <Link href="https://github.com/m4xy07" target="_blank" rel="noopener noreferrer">Aman Shaikh | m4xy</Link>. All rights reserved.
         </p>
       </div>
     </footer>
