@@ -40,7 +40,7 @@ const nextConfig = {
   },
   distDir: "build",
   trailingSlash: true,
-  output: "standalone",
+  output: "export",
 
   // ...other config
 };
