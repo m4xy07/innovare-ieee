@@ -38,10 +38,12 @@ const nextConfig = {
       "raw.githubusercontent.com",
     ], // Allow images from Unsplash
   },
+  loader: "imgix",
+  path: "",
   distDir: "build",
   trailingSlash: true,
   output: "export",
-   // Ensures assets are loaded relatively
+  // Ensures assets are loaded relatively
   basePath: "",
 
   // ...other config
