@@ -41,7 +41,6 @@ const nextConfig = {
   loader: "imgix",
   path: "",
   distDir: "build",
-  trailingSlash: true,
   output: "export",
   // Ensures assets are loaded relatively
   basePath: "",
