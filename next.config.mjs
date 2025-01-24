@@ -29,21 +29,35 @@ const nextConfig = {
   },
 
   images: {
-    domains: [
-      "images.unsplash.com",
-      "assets.aceternity.com",
-      "cdn-icons-png.flaticon.com",
-      "i.imgur.com",
-      "cdn.discordapp.com",
-      "raw.githubusercontent.com",
-    ], // Allow images from Unsplash
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "assets.aceternity.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn-icons-png.flaticon.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i.imgur.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.discordapp.com",
+      },
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+      },
+    ], // Allow images from specified domains
   },
-  loader: "imgix",
-  path: "",
   distDir: "build",
   output: "export",
-  // Ensures assets are loaded relatively
-  basePath: "",
 
   // ...other config
 };
