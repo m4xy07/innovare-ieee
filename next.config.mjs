@@ -57,7 +57,7 @@ const nextConfig = {
     ], // Allow images from specified domains
   },
   distDir: "build",
-  output: "export",v
+  output: "export",
 
   // ...other config
 };
