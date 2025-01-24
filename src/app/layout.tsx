@@ -6,8 +6,8 @@ import { twMerge } from "tailwind-merge";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Innovare IEEE",
-  description: "Desc",
+  title: "Innovare - IEEE",
+  description: "PCU's IEEE Student Chapter - Innovare",
 };
 
 export default function RootLayout({
