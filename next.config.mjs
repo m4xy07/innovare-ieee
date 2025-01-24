@@ -41,6 +41,8 @@ const nextConfig = {
   distDir: "build",
   trailingSlash: true,
   output: "export",
+  assetPrefix: "/", // Ensures assets are loaded relatively
+  basePath: "",
 
   // ...other config
 };
