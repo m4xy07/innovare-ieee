@@ -39,6 +39,9 @@ const nextConfig = {
     ], // Allow images from Unsplash
   },
   distDir: "build",
+  trailingSlash: true,
+  output: "standalone",
+
   // ...other config
 };
 
