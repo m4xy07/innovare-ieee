@@ -1,9 +1,9 @@
 "use client";
-import InnovareMarquee from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/InnovareMarquee.png";
-import IEEELogo from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/IEEELogo.png";
-import PCULogo from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/PCULogo.png";
-import IEEECS from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/ieeecs.webp";
-import IEEEBombay from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/bombay.png";
+import InnovareMarquee from "@/assets/InnovareMarquee.png";
+import IEEELogo from "@/assets/IEEELogo.png";
+import PCULogo from "@/assets/PCULogo.png";
+import IEEECS from "@/assets/ieeecs.webp";
+import IEEEBombay from "@/assets/bombay.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -25,46 +25,54 @@ export const LogoTicker = () => {
             }}
           >
             <Image
-              src={InnovareMarquee}
+              src={InnovareMarquee.src}
               alt="Innovare Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={IEEELogo}
+              src={IEEELogo.src}
               alt="IEEE Logo"
               className="logo-ticker-image"
             />
-            <Image src={PCULogo} alt="PCU Logo" className="logo-ticker-image" />
             <Image
-              src={IEEECS}
+              src={PCULogo.src}
+              alt="PCU Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={IEEECS.src}
               alt="IEEE CS Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={IEEEBombay}
+              src={IEEEBombay.src}
               alt="IEEE Bombay Logo"
               className="logo-ticker-image"
             />
 
             {/* Second set of logos for animation */}
             <Image
-              src={InnovareMarquee}
+              src={InnovareMarquee.src}
               alt="Innovare Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={IEEELogo}
+              src={IEEELogo.src}
               alt="IEEE Logo"
               className="logo-ticker-image"
             />
-            <Image src={PCULogo} alt="PCU Logo" className="logo-ticker-image" />
             <Image
-              src={IEEECS}
+              src={PCULogo.src}
+              alt="PCU Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={IEEECS.src}
               alt="IEEE CS Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={IEEEBombay}
+              src={IEEEBombay.src}
               alt="IEEE Bombay Logo"
               className="logo-ticker-image"
             />
