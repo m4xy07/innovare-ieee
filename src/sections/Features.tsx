@@ -4,9 +4,9 @@ import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
 import EcosystemIcon from "../assets/ecosystem.svg";
 import { Feature } from "./feature";
-import Technology from "../public/images/Technology.png";
-import Empowerment from "images/Empowerment.png";
-import Community from ".images/Community.png";
+import Technology from "@/assets/images/Technology.png";
+import Empowerment from "@/assets/images/Empowerment.png";
+import Community from "@/assets/images/Community.png";
 
 const features = [
   {
