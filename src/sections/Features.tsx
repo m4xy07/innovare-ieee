@@ -10,7 +10,7 @@ import Community from "@/assets/images/Community.png";
 
 const features = [
   {
-    imageSrc: "@/assets/images/Technology.png",
+    imageSrc: Technology.src,
     title: "Advancing Technology",
     description:
       "IEEE fosters innovation by supporting research, publishing standards, and organizing technical conferences, driving technological solutions for societal challenges.",
