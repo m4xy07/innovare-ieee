@@ -29,12 +29,12 @@ const nextConfig = {
   },
 
   images: {
-    unoptimized: true,  // Add this line for static exports
+    unoptimized: true, // Add this line for static exports
     remotePatterns: [
       {
         protocol: "https",
         hostname: "**",
-      }
+      },
     ],
   },
   distDir: "build",

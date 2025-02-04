@@ -208,7 +208,7 @@ const cards = [
   {
     description: "Innovating ideas and technologies.",
     title: "Tech for Rural Development",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/e1.png",
+    src: "/images/e1.png",
     ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
@@ -227,7 +227,7 @@ const cards = [
   {
     description: "Helping students get a better grasp of Java",
     title: "Java Programming Workshop",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/e2.png",
+    src: "/images/e2.png",
     ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
@@ -247,7 +247,7 @@ const cards = [
   {
     description: "Essentials of writing impactful research papers",
     title: "Research Paper Writing Session",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/e3.png",
+    src: "/images/e3.png",
     ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
@@ -267,7 +267,7 @@ const cards = [
   {
     description: "Explore the latest innovations and trends ",
     title: "Technical Webinar",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/e4.png",
+    src: "/images/e4.png",
     ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
@@ -287,7 +287,7 @@ const cards = [
   {
     description: "Showcase your innovation and creativity",
     title: "Project Expo",
-    src: "https://raw.githubusercontent.com/m4xy07/innovare-website-ieee/refs/heads/main/e5.png",
+    src: "/images/e5.png",
     ctaText: "Upcoming",
     ctaLink: "https://innovare.dev/404",
     content: () => {
