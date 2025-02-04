@@ -29,49 +29,49 @@ export const LogoTicker = () => {
               alt="Innovare Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={IEEELogo.src}
               alt="IEEE Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={PCULogo.src}
               alt="PCU Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={IEEECS.src}
               alt="IEEE CS Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={IEEEBombay.src}
               alt="IEEE Bombay Logo"
               className="logo-ticker-image"
             />
 
             {/* Second set of logos for animation */}
-            <Image
+            <motion.img
               src={InnovareMarquee.src}
               alt="Innovare Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={IEEELogo.src}
               alt="IEEE Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={PCULogo.src}
               alt="PCU Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={IEEECS.src}
               alt="IEEE CS Logo"
               className="logo-ticker-image"
             />
-            <Image
+            <motion.img
               src={IEEEBombay.src}
               alt="IEEE Bombay Logo"
               className="logo-ticker-image"
