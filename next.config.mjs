@@ -29,32 +29,13 @@ const nextConfig = {
   },
 
   images: {
+    unoptimized: true,  // Add this line for static exports
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-      {
-        protocol: "https",
-        hostname: "assets.aceternity.com",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn-icons-png.flaticon.com",
-      },
-      {
-        protocol: "https",
-        hostname: "i.imgur.com",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn.discordapp.com",
-      },
-      {
-        protocol: "https",
-        hostname: "raw.githubusercontent.com",
-      },
-    ], // Allow images from specified domains
+        hostname: "**",
+      }
+    ],
   },
   distDir: "build",
   output: "export",
