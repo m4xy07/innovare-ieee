@@ -10,7 +10,7 @@ import Community from "@/assets/images/Community.png";
 
 const features = [
   {
-    imageSrc: Technology.src,
+    imageSrc: Technology,
     title: "Advancing Technology",
     description:
       "IEEE fosters innovation by supporting research, publishing standards, and organizing technical conferences, driving technological solutions for societal challenges.",
@@ -51,7 +51,7 @@ export const Features = () => {
         <div className="mt-16 flex flex-col md:flex-row gap-4 justify-center">
           {features.map(({ imageSrc, title, description, height, width }) => (
             <Feature
-              imageSrc={imageSrc}
+              imageSrc={typeof imageSrc === "string" ? imageSrc : imageSrc.src}
               title={title}
               description={description}
               height={height}
