@@ -24,7 +24,7 @@ export const LogoTicker = () => {
               repeatType: "loop",
             }}
           >
-            <Image
+            <motion.img
               src={InnovareMarquee.src}
               alt="Innovare Logo"
               className="logo-ticker-image"
