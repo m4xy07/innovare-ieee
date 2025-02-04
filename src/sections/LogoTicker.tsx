@@ -1,9 +1,9 @@
 "use client";
-import InnovareMarquee from "@/assets/InnovareMarquee.png";
-import IEEELogo from "@/assets/IEEELogo.png";
-import PCULogo from "@/assets/PCULogo.png";
-import IEEECS from "@/assets/ieeecs.webp";
-import IEEEBombay from "@/assets/bombay.png";
+import InnovareMarquee from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/InnovareMarquee.png";
+import IEEELogo from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/IEEELogo.png";
+import PCULogo from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/PCULogo.png";
+import IEEECS from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/ieeecs.webp";
+import IEEEBombay from "https://raw.githubusercontent.com/m4xy07/innovare-ieee/refs/heads/main/src/assets/bombay.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -34,11 +34,7 @@ export const LogoTicker = () => {
               alt="IEEE Logo"
               className="logo-ticker-image"
             />
-            <Image
-              src={PCULogo}
-              alt="PCU Logo"
-              className="logo-ticker-image"
-            />
+            <Image src={PCULogo} alt="PCU Logo" className="logo-ticker-image" />
             <Image
               src={IEEECS}
               alt="IEEE CS Logo"
@@ -61,11 +57,7 @@ export const LogoTicker = () => {
               alt="IEEE Logo"
               className="logo-ticker-image"
             />
-            <Image
-              src={PCULogo}
-              alt="PCU Logo"
-              className="logo-ticker-image"
-            />
+            <Image src={PCULogo} alt="PCU Logo" className="logo-ticker-image" />
             <Image
               src={IEEECS}
               alt="IEEE CS Logo"
