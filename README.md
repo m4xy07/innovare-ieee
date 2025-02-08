@@ -12,6 +12,7 @@ Innovare is the official website for PCU's IEEE Student Chapter. It is built usi
 - Custom font integration with Google Fonts
 - Dynamic CSS class management with Tailwind Merge
 - SEO optimization with dynamic metadata
+- Optimized mobile version
 
 ## Installation
 
