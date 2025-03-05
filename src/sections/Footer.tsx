@@ -22,7 +22,7 @@ export const Footer = () => {
         </nav>
         <div className="flex justify-center gap-6 mt-6">
           <a href="https://twitter.com/PCUPuneOfficial" rel="noopener noreferrer"><SocialX /></a>
-          <a href="https://www.instagram.com/pcupuneofficial/" rel="noopener noreferrer"><SocialInsta /></a>
+          <a href="https://www.instagram.com/ieee_innovare_pcu/" rel="noopener noreferrer"><SocialInsta /></a>
           <a href="https://www.linkedin.com/school/pimpri-chinchwad-university/" rel="noopener noreferrer"><SocialLinkedIn /></a>
           <a href="https://www.youtube.com/@pcupuneofficial" rel="noopener noreferrer"><SocialYoutube /></a>
         </div>
